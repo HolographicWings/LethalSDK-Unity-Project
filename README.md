@@ -1,11 +1,13 @@
 # LethalSDK Unity Project
 
 This is a Development Kit for Lethal Company. It allow to easily add new Scraps and Moons to the game.
+![TestMoon](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/TestMoon.png "TestMoon")
 
 Features :
 - New scraps
 - New moons (unfinished but actually working, you can already make new moons but can't customize the Scraps, Monsters, Weathers, etc that will be used in it yet).
 
+## Usage :
 Requirement :
 - Unity ([2022.3.9 Recommended](https://unity.com/releases/editor/whats-new/2022.3.9)https://unity.com/releases/editor/whats-new/2022.3.9)
 - [Unity Hub](https://unity.com/download)
@@ -31,3 +33,8 @@ How to use :
 - When your mod is finished, click on the LethalSDK tab in the top of Unity, then click on AssetBundle Builder, and finally click on Build AssetBundles. (The first building will be longer)
 - When built, you can find your Asset Bundle in the folder you set, this Asset Bundle must be placed in the "Lethal Company\BepInEx\plugins\LethalExpansion\Modules\" to be loaded.
   WARNING : Of course, all players must have the same mods in order to join the same lobby.
+
+## Screenshots :
+![Scrap1](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/Scrap1.png "Scrap1")
+![Moon1](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/Moon1.png "Moon1")
+![SceneBuilder](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/SceneBuilder.png "SceneBuilder")
