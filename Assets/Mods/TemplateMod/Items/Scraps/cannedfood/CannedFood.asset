@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: CannedFood
+  m_EditorClassIdentifier: 
+  itemName: Canned Food
+  minValue: 40
+  maxValue: 80
+  requiresBattery: 0
+  weight: 5
+  prefab: {fileID: 1065474741640855, guid: baa8d2066558c9a4ebcd1853c4c3ac4e, type: 3}
+  grabSFX: 
+  dropSFX: 
+  verticalOffset: 0.06
+  restingRotation: {x: 315, y: 180, z: 90}
+  positionOffset: {x: 0.034, y: 0.063, z: -0.02}
+  rotationOffset: {x: 70.5, y: 118, z: 34.5}
+  meshVariants: []
+  materialVariants: []
+  useGlobalSpawnRate: 0
+  globalSpawnWeight: 15
+  _perPlanetSpawnWeight:
+  - SceneName: 41 Experimentation
+    SpawnWeight: 17
+  - SceneName: 220 Assurance
+    SpawnWeight: 15
+  - SceneName: 56 Vow
+    SpawnWeight: 11
+  - SceneName: 21 Offense
+    SpawnWeight: 17
+  - SceneName: 61 March
+    SpawnWeight: 18
+  - SceneName: 85 Rend
+    SpawnWeight: 19
+  - SceneName: 7 Dine
+    SpawnWeight: 23
+  - SceneName: 8 Titan
+    SpawnWeight: 21
+  serializedData: 41 Experimentation,17;220 Assurance,15;56 Vow,11;21 Offense,17;61
+    March,18;85 Rend,19;7 Dine,23;8 Titan,21

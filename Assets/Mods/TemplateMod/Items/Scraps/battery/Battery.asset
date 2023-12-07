@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: Battery
+  m_EditorClassIdentifier: 
+  itemName: Battery
+  minValue: 50
+  maxValue: 100
+  requiresBattery: 0
+  weight: 5
+  prefab: {fileID: 1664074090380030, guid: b0d83189af989ae45bbf4ac39d607742, type: 3}
+  grabSFX: 
+  dropSFX: 
+  verticalOffset: 0.06
+  restingRotation: {x: 0, y: 90, z: 90}
+  positionOffset: {x: -0.0087, y: 0.0294, z: -0.0035}
+  rotationOffset: {x: 81, y: 105, z: 354}
+  meshVariants: []
+  materialVariants: []
+  useGlobalSpawnRate: 0
+  globalSpawnWeight: 10
+  _perPlanetSpawnWeight:
+  - SceneName: 41 Experimentation
+    SpawnWeight: 6
+  - SceneName: 220 Assurance
+    SpawnWeight: 7
+  - SceneName: 56 Vow
+    SpawnWeight: 8
+  - SceneName: 21 Offense
+    SpawnWeight: 11
+  - SceneName: 61 March
+    SpawnWeight: 12
+  - SceneName: 85 Rend
+    SpawnWeight: 16
+  - SceneName: 7 Dine
+    SpawnWeight: 18
+  - SceneName: 8 Titan
+    SpawnWeight: 15
+  serializedData: 41 Experimentation,6;220 Assurance,7;56 Vow,8;21 Offense,11;61
+    March,12;85 Rend,16;7 Dine,18;8 Titan,15

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1366554475, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: ModManifest
+  m_EditorClassIdentifier: 
+  modName: TemplateMod
+  version:
+    Major: 0
+    Minor: 0
+    Build: 0
+    Revision: 0
+  author: HolographicWings
+  description: This mod is a template.
+  scraps:
+  - {fileID: 11400000, guid: 588dc5a48b56d8549a9ead2ee67aee9d, type: 2}
+  - {fileID: 11400000, guid: e2621f81e47136a4fbb8c8f669d6aa02, type: 2}
+  - {fileID: 11400000, guid: 4a14b96735a487f4bb595d9178f431ce, type: 2}
+  - {fileID: 11400000, guid: 4623aaaaad6ce4445bacd40e2e494fa5, type: 2}
+  - {fileID: 11400000, guid: 4220556443ae1664aa7d52cb91d76c59, type: 2}
+  moons:
+  - {fileID: 11400000, guid: 55eef41ce40269e48970983dff348c2a, type: 2}
+  assetBank: {fileID: 11400000, guid: 2a7fdfc3d27635646a937367685c567d, type: 2}

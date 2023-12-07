@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: Pills
+  m_EditorClassIdentifier: 
+  itemName: Pills
+  minValue: 100
+  maxValue: 200
+  requiresBattery: 0
+  weight: 0
+  prefab: {fileID: 1985338178271116, guid: d7a071993994de240837dde6563cb6e5, type: 3}
+  grabSFX: 
+  dropSFX: 
+  verticalOffset: 0.055
+  restingRotation: {x: -45, y: 0, z: 90}
+  positionOffset: {x: 0.033, y: 0.043, z: -0.003}
+  rotationOffset: {x: 18.62, y: 8.1, z: 270}
+  meshVariants: []
+  materialVariants: []
+  useGlobalSpawnRate: 0
+  globalSpawnWeight: 2
+  _perPlanetSpawnWeight:
+  - SceneName: 41 Experimentation
+    SpawnWeight: 1
+  - SceneName: 220 Assurance
+    SpawnWeight: 2
+  - SceneName: 56 Vow
+    SpawnWeight: 2
+  - SceneName: 21 Offense
+    SpawnWeight: 3
+  - SceneName: 61 March
+    SpawnWeight: 3
+  - SceneName: 85 Rend
+    SpawnWeight: 4
+  - SceneName: 7 Dine
+    SpawnWeight: 4
+  - SceneName: 8 Titan
+    SpawnWeight: 5
+  serializedData: 41 Experimentation,1;220 Assurance,2;56 Vow,2;21 Offense,3;61 March,3;85
+    Rend,4;7 Dine,4;8 Titan,5

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: Tape
+  m_EditorClassIdentifier: 
+  itemName: Tape
+  minValue: 30
+  maxValue: 60
+  requiresBattery: 0
+  weight: 5
+  prefab: {fileID: 1089726810798314, guid: 7f67e50f4bb2c184991ae47154cd295d, type: 3}
+  grabSFX: 
+  dropSFX: DropFlashlight
+  verticalOffset: 0.012
+  restingRotation: {x: 0, y: 0, z: 0}
+  positionOffset: {x: -0.016, y: 0.055, z: 0.013}
+  rotationOffset: {x: 349.2, y: 0, z: 0}
+  meshVariants: []
+  materialVariants: []
+  useGlobalSpawnRate: 0
+  globalSpawnWeight: 20
+  _perPlanetSpawnWeight:
+  - SceneName: 41 Experimentation
+    SpawnWeight: 21
+  - SceneName: 220 Assurance
+    SpawnWeight: 23
+  - SceneName: 56 Vow
+    SpawnWeight: 21
+  - SceneName: 21 Offense
+    SpawnWeight: 17
+  - SceneName: 61 March
+    SpawnWeight: 18
+  - SceneName: 85 Rend
+    SpawnWeight: 19
+  - SceneName: 7 Dine
+    SpawnWeight: 21
+  - SceneName: 8 Titan
+    SpawnWeight: 17
+  serializedData: 41 Experimentation,21;220 Assurance,23;56 Vow,21;21 Offense,17;61
+    March,18;85 Rend,19;7 Dine,21;8 Titan,17
