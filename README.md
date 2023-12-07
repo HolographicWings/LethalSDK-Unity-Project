@@ -7,6 +7,8 @@ Features :
 - New scraps
 - New moons (unfinished but actually working, you can already make new moons but can't customize the Scraps, Monsters, Weathers, etc that will be used in it yet).
 
+[![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/LethalSDK-Unity-Project/total.svg?style=for-the-badge)](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
+
 ## Usage :
 Requirement :
 - [The SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
