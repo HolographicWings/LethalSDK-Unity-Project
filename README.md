@@ -9,12 +9,14 @@ Features :
 
 ## Usage :
 Requirement :
+- [The SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
 - Unity ([2022.3.9 Recommended](https://unity.com/releases/editor/whats-new/2022.3.9)https://unity.com/releases/editor/whats-new/2022.3.9)
 - [Unity Hub](https://unity.com/download)
 
 How to install :
 (I'll made a video tutorial)
-- Install both Unity and Unity Hub.
+- [Download the SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases). (LethalSDK.zip)
+- Install both [Unity](https://unity.com/releases/editor/whats-new/2022.3.) and [Unity Hub](https://unity.com/download).
 - In Installs tab in Unity Hub, locate the Editor executable in the Unity installation directory.
 - Extract the SDK anywhere.
 
