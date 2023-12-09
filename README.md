@@ -186,6 +186,8 @@ How to use :
 </details>
 
 ## Changes :
+- 1.1.3 :
+	- Fixed possible AssetBundle creation lock.
 - 1.1.2 :
 	- Finally fixed the crash.
 - 1.1.1 :
