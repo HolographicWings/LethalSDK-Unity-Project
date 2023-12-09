@@ -186,9 +186,9 @@ How to use :
 
 ## Changes :
 - 1.1.0 :
- - Full custom moons support.
- - Removed useless assets and compressed the main skybox.
- - Automatic asset bundle addressing.
+	- Full custom moons support.
+	- Removed useless assets and compressed the main skybox.
+	- Automatic asset bundle addressing.
 
 ## Planned features :
 - Custom Map Objects and Outside Objects.
