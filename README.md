@@ -19,7 +19,7 @@ Requirement :
 How to install :
 (I'll made a video tutorial)
 - [Download the SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases). (LethalSDK.zip)
-- Install both [Unity](https://unity.com/releases/editor/whats-new/2022.3.) and [Unity Hub](https://unity.com/download).
+- Install both [Unity](https://unity.com/releases/editor/whats-new/2022.3) and [Unity Hub](https://unity.com/download).
 - In Installs tab in Unity Hub, locate the Editor executable in the Unity installation directory.
 - Extract the SDK ("LethalSDK_Project" folder) anywhere.
 
