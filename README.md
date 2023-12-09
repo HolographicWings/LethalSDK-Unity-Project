@@ -1,7 +1,7 @@
 # LethalSDK Unity Project
 
- This is a Development Kit for Lethal Company. It allow to easily add new Scraps and Moons to the game.
- [Thunderstore.io link](https://thunderstore.io/c/lethal-company/p/HolographicWings/LethalSDK/)
+ This is a Development Kit for Lethal Company. It allow to easily add new Scraps and Moons to the game.  
+ [Thunderstore.io link](https://thunderstore.io/c/lethal-company/p/HolographicWings/LethalSDK/)  
  ![TestMoon](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/TestMoon.png "TestMoon")
 
 Features :
