@@ -18,12 +18,553 @@ MonoBehaviour:
   PlanetName: Test Moon
   MainPrefab: {fileID: 2016254630306542993, guid: 718fcf9bfba85b64bb28a71f9355886e,
     type: 3}
-  PlanetDescription: Test
+  PlanetDescription: Test.
   PlanetVideo: {fileID: 0}
   RiskLevel: X
   TimeToArrive: 1
   DaySpeedMultiplier: 1
   PlanetHasTime: 1
+  _RandomWeatherTypes:
+  - Weather: 1
+    WeatherVariable1: 0
+    WeatherVariable2: 0
+  - Weather: 1
+    WeatherVariable1: 0
+    WeatherVariable2: 0
+  - Weather: 2
+    WeatherVariable1: 1
+    WeatherVariable2: 0
+  - Weather: 3
+    WeatherVariable1: 1
+    WeatherVariable2: 0
+  - Weather: 4
+    WeatherVariable1: -4
+    WeatherVariable2: 5
+  - Weather: 5
+    WeatherVariable1: 1
+    WeatherVariable2: 0
+  OverwriteWeather: 0
+  OverwriteWeatherType: -1
   RouteWord: testmoon
   RoutePrice: 0
   BoughtComment: This is a test.
+  FactorySizeMultiplier: 1
+  _DungeonFlowTypes:
+  - ID: 0
+    Rarity: 300
+  - ID: 1
+    Rarity: 1
+  _SpawnableScrap:
+  - ObjectName: Cog1
+    SpawnWeight: 80
+  - ObjectName: EnginePart1
+    SpawnWeight: 90
+  - ObjectName: FishTestProp
+    SpawnWeight: 12
+  - ObjectName: MetalSheet
+    SpawnWeight: 88
+  - ObjectName: FlashLaserPointer
+    SpawnWeight: 4
+  - ObjectName: BigBolt
+    SpawnWeight: 80
+  - ObjectName: BottleBin
+    SpawnWeight: 19
+  - ObjectName: Ring
+    SpawnWeight: 3
+  - ObjectName: SteeringWheel
+    SpawnWeight: 32
+  - ObjectName: MoldPan
+    SpawnWeight: 5
+  - ObjectName: EggBeater
+    SpawnWeight: 10
+  - ObjectName: PickleJar
+    SpawnWeight: 10
+  - ObjectName: DustPan
+    SpawnWeight: 32
+  - ObjectName: Airhorn
+    SpawnWeight: 3
+  - ObjectName: ClownHorn
+    SpawnWeight: 3
+  - ObjectName: CashRegister
+    SpawnWeight: 3
+  - ObjectName: Candy
+    SpawnWeight: 2
+  - ObjectName: GoldBar
+    SpawnWeight: 1
+  - ObjectName: YieldSign
+    SpawnWeight: 6
+  MinScrap: 8
+  MaxScrap: 12
+  LevelAmbienceClips: Level1TypeAmbience
+  MaxEnemyPowerCount: 4
+  _Enemies:
+  - EnemyName: Centipede
+    SpawnWeight: 51
+  - EnemyName: SandSpider
+    SpawnWeight: 58
+  - EnemyName: HoarderBug
+    SpawnWeight: 28
+  - EnemyName: Flowerman
+    SpawnWeight: 13
+  - EnemyName: Crawler
+    SpawnWeight: 16
+  - EnemyName: Blob
+    SpawnWeight: 31
+  - EnemyName: DressGirl
+    SpawnWeight: 1
+  - EnemyName: Puffer
+    SpawnWeight: 28
+  EnemySpawnChanceThroughoutDay:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0015411377
+      value: -3
+      inSlope: 19.556997
+      outSlope: 19.556997
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.12297855
+    - serializedVersion: 3
+      time: 0.45753312
+      value: 4.796203
+      inSlope: 24.479534
+      outSlope: 24.479534
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.39607742
+      outWeight: 0.35472238
+    - serializedVersion: 3
+      time: 0.75938845
+      value: 4.9730015
+      inSlope: 2.616315
+      outSlope: 2.616315
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.29010764
+      outWeight: 0.5360636
+    - serializedVersion: 3
+      time: 1
+      value: 15
+      inSlope: 35.604027
+      outSlope: 35.604027
+      tangentMode: 0
+      weightedMode: 1
+      inWeight: 0.04912584
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SpawnProbabilityRange: 4
+  _SpawnableMapObjects:
+  - ObjectName: Landmine
+    SpawnFacingAwayFromWall: 0
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0030822754
+        value: 0
+        inSlope: 0.23179345
+        outSlope: 0.23179345
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.2793643
+      - serializedVersion: 3
+        time: 0.81719244
+        value: 1.7483323
+        inSlope: 7.064207
+        outSlope: 7.064207
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.26318336
+        outWeight: 0.6898178
+      - serializedVersion: 3
+        time: 1.0002186
+        value: 11.760998
+        inSlope: 968.8081
+        outSlope: 968.8081
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.029036392
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - ObjectName: TurretContainer
+    SpawnFacingAwayFromWall: 1
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.35461718
+        outSlope: 0.35461718
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.919029
+        value: 1.0005746
+        inSlope: Infinity
+        outSlope: 1.7338486
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0
+        outWeight: 0.65349674
+      - serializedVersion: 3
+        time: 1.0038426
+        value: 7.198681
+        inSlope: 529.4945
+        outSlope: 529.4945
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.14589553
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _SpawnableOutsideObjects:
+  - ObjectName: LargeRock1
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.75715727
+        value: 0.6448164
+        inSlope: 2.97425
+        outSlope: 2.97425
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9995537
+        value: 5.883961
+        inSlope: 65.30631
+        outSlope: 65.30631
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.12097537
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - ObjectName: LargeRock2
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.756288
+        value: 1.2308544
+        inSlope: 5.1119266
+        outSlope: 5.1119266
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.21955739
+      - serializedVersion: 3
+        time: 1.0010796
+        value: 7.5930734
+        inSlope: 92.04702
+        outSlope: 92.04702
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.050331622
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - ObjectName: LargeRock3
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.99646866
+        value: 2.0009398
+        inSlope: 6.8294067
+        outSlope: 6.8294067
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.06891261
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - ObjectName: LargeRock4
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.96356046
+        value: 2.1533835
+        inSlope: 6.2512255
+        outSlope: 6.2512255
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07428121
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.99953943
+        value: 5
+        inSlope: 15.746581
+        outSlope: 15.746581
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.063174136
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - ObjectName: TreeLeafless1
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.6912956
+        outSlope: 1.6912956
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.27726084
+      - serializedVersion: 3
+        time: 0.776532
+        value: 6.162014
+        inSlope: 30.075167
+        outSlope: 30.075167
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.15920748
+        outWeight: 0.5323987
+      - serializedVersion: 3
+        time: 1.0002282
+        value: 38.09385
+        inSlope: 1448.8391
+        outSlope: 1448.8391
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.062006146
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - ObjectName: SmallGreyRocks1
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.6912956
+        outSlope: 1.6912956
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.27726084
+      - serializedVersion: 3
+        time: 0.80271447
+        value: 1.5478605
+        inSlope: 9.096116
+        outSlope: 9.096116
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.15920748
+        outWeight: 0.5876611
+      - serializedVersion: 3
+        time: 1.0002282
+        value: 14.584034
+        inSlope: 1244.9174
+        outSlope: 1244.9174
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.05462032
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - ObjectName: GiantPumpkin
+    SpawnRate:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.6912956
+        outSlope: 1.6912956
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.27726084
+      - serializedVersion: 3
+        time: 0.8832726
+        value: 0.5284064
+        inSlope: 3.296209
+        outSlope: 29.389778
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.19772816
+        outWeight: 0.8989489
+      - serializedVersion: 3
+        time: 0.9722091
+        value: 6.768448
+        inSlope: 140.27394
+        outSlope: 140.27394
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.39466608
+        outWeight: 0.4704904
+      - serializedVersion: 3
+        time: 1.0002282
+        value: 23
+        inSlope: 579.3037
+        outSlope: 14.878238
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.6488085
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  MaxOutsideEnemyPowerCount: 8
+  MaxDaytimeEnemyPowerCount: 5
+  _OutsideEnemies:
+  - EnemyName: MouthDog
+    SpawnWeight: 75
+  - EnemyName: ForestGiant
+    SpawnWeight: 0
+  - EnemyName: SandWorm
+    SpawnWeight: 56
+  _DaytimeEnemies:
+  - EnemyName: RedLocustBees
+    SpawnWeight: 22
+  - EnemyName: Doublewing
+    SpawnWeight: 74
+  - EnemyName: DocileLocustBees
+    SpawnWeight: 52
+  OutsideEnemySpawnChanceThroughDay:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.00000077369623
+      value: -2.997
+      inSlope: Infinity
+      outSlope: 0.5040292
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.08937686
+    - serializedVersion: 3
+      time: 0.71054816
+      value: -0.65558225
+      inSlope: 9.172262
+      outSlope: 9.172262
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.71965504
+    - serializedVersion: 3
+      time: 1.0052626
+      value: 5.3594007
+      inSlope: 216.42247
+      outSlope: 11.374388
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.04463718
+      outWeight: 0.48315445
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DaytimeEnemySpawnChanceThroughDay:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 2.2706568
+      inSlope: -7.5000854
+      outSlope: -7.5000854
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.20650266
+    - serializedVersion: 3
+      time: 0.38507816
+      value: -0.006410897
+      inSlope: -2.7670975
+      outSlope: -2.7670975
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.28388944
+      outWeight: 0.30659768
+    - serializedVersion: 3
+      time: 0.6767025
+      value: -7.0216584
+      inSlope: -27.286888
+      outSlope: -27.286888
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10391547
+      outWeight: 0.12503523
+    - serializedVersion: 3
+      time: 0.9998173
+      value: -14.818101
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DaytimeEnemiesProbabilityRange: 5
+  LevelIncludesSnowFootprints: 0
+  serializedRandomWeatherTypes: 1,0,0;1,0,0;2,1,0;3,1,0;4,-4,5;5,1,0
+  serializedDungeonFlowTypes: 0,300;1,1
+  serializedSpawnableScrap: Cog1,80;EnginePart1,90;FishTestProp,12;MetalSheet,88;FlashLaserPointer,4;BigBolt,80;BottleBin,19;Ring,3;SteeringWheel,32;MoldPan,5;EggBeater,10;PickleJar,10;DustPan,32;Airhorn,3;ClownHorn,3;CashRegister,3;Candy,2;GoldBar,1;YieldSign,6
+  serializedEnemies: Centipede,51;SandSpider,58;HoarderBug,28;Flowerman,13;Crawler,16;Blob,31;DressGirl,1;Puffer,28
+  serializedOutsideEnemies: MouthDog,75;ForestGiant,0;SandWorm,56
+  serializedDaytimeEnemies: RedLocustBees,22;Doublewing,74;DocileLocustBees,52
+  serializedSpawnableMapObjects: Landmine|False|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":-0.003082275390625,"value":0.0,"inSlope":0.23179344832897187,"outSlope":0.23179344832897187,"tangentMode":0,"weightedMode":2,"inWeight":0.0,"outWeight":0.27936428785324099},{"serializedVersion":"3","time":0.8171924352645874,"value":1.7483322620391846,"inSlope":7.064207077026367,"outSlope":7.064207077026367,"tangentMode":0,"weightedMode":3,"inWeight":0.2631833553314209,"outWeight":0.6898177862167358},{"serializedVersion":"3","time":1.0002186298370362,"value":11.760997772216797,"inSlope":968.80810546875,"outSlope":968.80810546875,"tangentMode":0,"weightedMode":3,"inWeight":0.029036391526460649,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}};TurretContainer|True|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":0.354617178440094,"outSlope":0.354617178440094,"tangentMode":0,"weightedMode":2,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":0.9190289974212647,"value":1.0005745887756348,"inSlope":Infinity,"outSlope":1.7338485717773438,"tangentMode":0,"weightedMode":3,"inWeight":0.0,"outWeight":0.6534967422485352},{"serializedVersion":"3","time":1.0038425922393799,"value":7.198680877685547,"inSlope":529.4945068359375,"outSlope":529.4945068359375,"tangentMode":0,"weightedMode":3,"inWeight":0.14589552581310273,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}}
+  serializedSpawnableOutsideObjects: LargeRock1|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":0.0,"outSlope":0.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":0.7571572661399841,"value":0.6448163986206055,"inSlope":2.974250078201294,"outSlope":2.974250078201294,"tangentMode":0,"weightedMode":0,"inWeight":0.3333333432674408,"outWeight":0.3333333432674408},{"serializedVersion":"3","time":0.9995536804199219,"value":5.883961200714111,"inSlope":65.30631256103516,"outSlope":65.30631256103516,"tangentMode":0,"weightedMode":0,"inWeight":0.12097536772489548,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}};LargeRock2|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":0.0,"outSlope":0.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":0.7562879920005798,"value":1.2308543920516968,"inSlope":5.111926555633545,"outSlope":5.111926555633545,"tangentMode":0,"weightedMode":0,"inWeight":0.3333333432674408,"outWeight":0.21955738961696626},{"serializedVersion":"3","time":1.0010795593261719,"value":7.59307336807251,"inSlope":92.0470199584961,"outSlope":92.0470199584961,"tangentMode":0,"weightedMode":0,"inWeight":0.05033162236213684,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}};LargeRock3|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":0.0,"outSlope":0.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":0.9964686632156372,"value":2.0009398460388185,"inSlope":6.82940673828125,"outSlope":6.82940673828125,"tangentMode":0,"weightedMode":0,"inWeight":0.06891261041164398,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}};LargeRock4|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":0.0,"outSlope":0.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":0.9635604619979858,"value":2.153383493423462,"inSlope":6.251225471496582,"outSlope":6.251225471496582,"tangentMode":0,"weightedMode":0,"inWeight":0.07428120821714401,"outWeight":0.3333333432674408},{"serializedVersion":"3","time":0.9995394349098206,"value":5.0,"inSlope":15.746581077575684,"outSlope":15.746581077575684,"tangentMode":0,"weightedMode":0,"inWeight":0.06317413598299027,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}};TreeLeafless1|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":1.6912956237792969,"outSlope":1.6912956237792969,"tangentMode":0,"weightedMode":2,"inWeight":0.0,"outWeight":0.27726083993911745},{"serializedVersion":"3","time":0.776531994342804,"value":6.162014007568359,"inSlope":30.075166702270509,"outSlope":30.075166702270509,"tangentMode":0,"weightedMode":3,"inWeight":0.15920747816562653,"outWeight":0.5323987007141113},{"serializedVersion":"3","time":1.0002281665802003,"value":38.093849182128909,"inSlope":1448.839111328125,"outSlope":1448.839111328125,"tangentMode":0,"weightedMode":3,"inWeight":0.0620061457157135,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}};SmallGreyRocks1|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":1.6912956237792969,"outSlope":1.6912956237792969,"tangentMode":0,"weightedMode":2,"inWeight":0.0,"outWeight":0.27726083993911745},{"serializedVersion":"3","time":0.802714467048645,"value":1.5478605031967164,"inSlope":9.096116065979004,"outSlope":9.096116065979004,"tangentMode":0,"weightedMode":3,"inWeight":0.15920747816562653,"outWeight":0.58766108751297},{"serializedVersion":"3","time":1.0002281665802003,"value":14.584033966064454,"inSlope":1244.9173583984375,"outSlope":1244.9173583984375,"tangentMode":0,"weightedMode":3,"inWeight":0.054620321840047839,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}};GiantPumpkin|{"curve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":1.6912956237792969,"outSlope":1.6912956237792969,"tangentMode":0,"weightedMode":2,"inWeight":0.0,"outWeight":0.27726083993911745},{"serializedVersion":"3","time":0.8832725882530212,"value":0.5284063816070557,"inSlope":3.2962090969085695,"outSlope":29.38977813720703,"tangentMode":0,"weightedMode":3,"inWeight":0.19772815704345704,"outWeight":0.8989489078521729},{"serializedVersion":"3","time":0.972209095954895,"value":6.7684478759765629,"inSlope":140.27394104003907,"outSlope":140.27394104003907,"tangentMode":0,"weightedMode":3,"inWeight":0.39466607570648196,"outWeight":0.47049039602279665},{"serializedVersion":"3","time":1.0002281665802003,"value":23.0,"inSlope":579.3037109375,"outSlope":14.8782377243042,"tangentMode":0,"weightedMode":3,"inWeight":0.648808479309082,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}}

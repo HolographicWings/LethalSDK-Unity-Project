@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.52917653, g: 0.32669255, b: 0.19903135, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -436,12 +436,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3661751095693201366}
   m_Layer: 0
-  m_Name: TestMoon
+  m_Name: TemplateMoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &715607034588694314
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3245738497
+  GlobalObjectIdHash: 3044012009
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -1873,7 +1873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 347079693
+  GlobalObjectIdHash: 1712050170
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -1881,6 +1881,89 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
+--- !u!1001 &4569091155625796496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2016254630306542993, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_Name
+      value: TestMoon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406183340144770402, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1698559251
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389997359633703437, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4077987165
+      objectReference: {fileID: 0}
+    - target: {fileID: 9026857127207217996, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1308851407
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 718fcf9bfba85b64bb28a71f9355886e, type: 3}
 --- !u!114 &4648639205754040399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2899,7 +2982,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.11666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: ad3a7d217453ad54ca7a3b818d1bea2d, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: ad6b4095def8beb4dbf4867e3fd9e092, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &7876433433099025609
 Transform:
@@ -3101,7 +3184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3707071962
+  GlobalObjectIdHash: 2280033064
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -3387,3 +3470,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 2013410475}
   - {fileID: 3661751095693201366}
+  - {fileID: 4569091155625796496}
