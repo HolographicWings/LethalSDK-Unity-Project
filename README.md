@@ -73,6 +73,14 @@ How to use :
     <li>BeeHiveGrab</li>
     <li>BeeHiveDrop</li>
     <li>GhostDeviceHitGround</li>
+    <li>GrabShotgun (Update 45)</li>
+    <li>DropGun (Update 45)</li>
+    <li>GrabShotgunShell (Update 45)</li>
+    <li>DropShotgunShell (Update 45)</li>
+    <li>GrabBottle (Update 45)</li>
+    <li>DropBottleSingle (Update 45)</li>
+    <li>GrabCardboardBox (Update 45)</li>
+    <li>DropCardboardBox (Update 45)</li>
   </ul>
   </details>
   <details>
@@ -150,6 +158,12 @@ How to use :
   <li>PerfumeBottle</li>
   <li>Dentures</li>
   <li>7Ball</li>
+  <li>DiyFlashbang (Update 45)</li>
+  <li>GiftBox (Update 45)</li>
+  <li>Flask (Update 45)</li>
+  <li>WhoopieCushion (Update 45)</li>
+  <li>ComedyMask (Update 45)</li>
+  <li>TragedyMask (Update 45)</li>
   </ul>
   </details>
   <details>
@@ -181,11 +195,15 @@ How to use :
   <li>SpringMan</li>
   <li>Jester</li>
   <li>LassoMan</li>
+  <li>Nutcracker (Update 45)</li>
+  <li>MaskedPlayerEnemy (Update 45)</li>
   </ul>
   </details>
 </details>
 
 ## Changes :
+- 1.1.4 :
+	- Game Version 45 Ready.
 - 1.1.3 :
 	- Fixed possible AssetBundle creation lock.
 - 1.1.2 :
