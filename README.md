@@ -186,6 +186,8 @@ How to use :
 </details>
 
 ## Changes :
+- 1.1.1 :
+	- Attempt to fix a crash when dropping the PlayerShipNavMesh prefab on a scene.
 - 1.1.0 :
 	- Full custom moons support.
 	- Removed useless assets and compressed the main skybox.
