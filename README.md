@@ -31,12 +31,25 @@ How to use :
   WARNING : the Mod Name and the Mod Folder must be same !
 - You can follow how the TemplateMod is made to make your own stuff.
   In the root of the project, you can find a scene called SceneBuilder, this scene is usefull to easily make your own moons, just make a prefab from the scene by drag and dropping the parent object to the file explorer.
-- On every file in your mod folder, you must change the Asset Bundle name, can be found on the bottom of the Inspector when clicking on a file, change it from "templatemod" to the name of your mod.
-  WARNING : Leave it's subname as None.
-  WARNING : Don't forget any file in your mod, they all must use the Asset Bundle name of your mod.
 - When your mod is finished, click on the LethalSDK tab in the top of Unity, then click on AssetBundle Builder, and finally click on Build AssetBundles. (The first building will be longer)
-- When built, you can find your Asset Bundle in the folder you set, this Asset Bundle must be placed in the "Lethal Company\BepInEx\plugins\LethalExpansion\Modules\" to be loaded.
+- When built, you can find your Asset Bundle in the folder you set, this Asset Bundle must be placed in the "Lethal Company\BepInEx\plugins\LethalExpansion\Modules\" to be loaded. (Only the file with the name of your mod, the manifest is not required)
   WARNING : Of course, all players must have the same mods in order to join the same lobby.
+
+## Changes :
+- 1.1.0 :
+ - Full custom moons support.
+ - Removed useless assets and compressed the main skybox.
+ - Automatic asset bundle addressing.
+
+## Planned features :
+- Custom Map Objects and Outside Objects.
+- Custom Level Ambiances.
+- Custom Dungeon Flows (will take a long time).
+- Custom Interractable Scraps.
+- Custom Shop Items (Ship Decorations and Suits as well).
+- Custom Weathers (will take a long time).
+- Custom Monsters? (will take a long time).
+- Recursive Scrap spawn per level patch.
 
 ## Screenshots :
 ![Scrap1](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/Scrap1.png "Scrap1")
