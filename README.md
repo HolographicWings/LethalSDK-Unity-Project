@@ -4,8 +4,8 @@ This is a Development Kit for Lethal Company. It allow to easily add new Scraps 
 ![TestMoon](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/TestMoon.png "TestMoon")
 
 Features :
-- New scraps
-- New moons (unfinished but actually working, you can already make new moons but can't customize the Scraps, Monsters, Weathers, etc that will be used in it yet).
+- New scraps.
+- New moons.
 
 [![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/LethalSDK-Unity-Project/total.svg?style=for-the-badge)](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
 
