@@ -1,6 +1,6 @@
 {
   "name": "LethalSDK",
-  "version_number": "1.1.1",
+  "version_number": "1.1.2",
   "website_url": "https://github.com/HolographicWings/LethalSDK-Unity-Project",
   "description": "Lethal Company Development Kit to easily add new Scraps, Moons and more in future.",
   "dependencies": [

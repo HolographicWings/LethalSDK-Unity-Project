@@ -186,6 +186,8 @@ How to use :
 </details>
 
 ## Changes :
+- 1.1.2 :
+	- Finally fixed the crash.
 - 1.1.1 :
 	- Attempt to fix a crash when dropping the PlayerShipNavMesh prefab on a scene.
 - 1.1.0 :
