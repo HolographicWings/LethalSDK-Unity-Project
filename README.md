@@ -202,6 +202,11 @@ How to use :
 </details>
 
 ## Changes :
+- 1.1.5 :
+	- Added water support
+	- Fixed minor issues
+	- Updated moon support
+	- Added Old Sea Port map and Assets
 - 1.1.4 :
 	- Game Version 45 Ready.
 - 1.1.3 :

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TestMoon
   m_EditorClassIdentifier: 
   MoonName: TestMoon
+  RequiredBundles: []
   OrbitPrefabName: Moon1
   SpawnEnemiesAndScrap: 1
   PlanetName: Test Moon
@@ -25,7 +26,7 @@ MonoBehaviour:
   DaySpeedMultiplier: 1
   PlanetHasTime: 1
   _RandomWeatherTypes:
-  - Weather: 1
+  - Weather: -1
     WeatherVariable1: 0
     WeatherVariable2: 0
   - Weather: 1
@@ -570,7 +571,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   DaytimeEnemiesProbabilityRange: 5
   LevelIncludesSnowFootprints: 0
-  serializedRandomWeatherTypes: 1,0,0;1,0,0;2,1,0;3,1,0;4,-4,5;5,1,0
+  serializedRandomWeatherTypes: -1,0,0;1,0,0;2,1,0;3,1,0;4,-4,5;5,1,0
   serializedDungeonFlowTypes: 0,300;1,1
   serializedSpawnableScrap: Cog1,80;EnginePart1,90;FishTestProp,12;MetalSheet,88;FlashLaserPointer,4;BigBolt,80;BottleBin,19;Ring,3;SteeringWheel,32;MoldPan,5;EggBeater,10;PickleJar,10;DustPan,32;Airhorn,3;ClownHorn,3;CashRegister,3;Candy,2;GoldBar,1;YieldSign,6;Battery,10;CannedFood,15;Matchbox,5;Pills,2;Tape,20
   serializedEnemies: Centipede,51;SandSpider,58;HoarderBug,28;Flowerman,13;Crawler,16;Blob,31;DressGirl,1;Puffer,28

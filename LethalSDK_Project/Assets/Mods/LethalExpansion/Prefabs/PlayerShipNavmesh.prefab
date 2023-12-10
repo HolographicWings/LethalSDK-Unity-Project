@@ -2826,6 +2826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4762574366426189894}
+  - component: {fileID: 8508605473774610588}
   m_Layer: 15
   m_Name: PlayerShipNavmesh
   m_TagString: Untagged
@@ -2875,6 +2876,19 @@ Transform:
   - {fileID: 4085620470532970613}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &8508605473774610588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6807108670442557607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -814283710, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialPosition: {x: -17.5, y: 5.75, z: -16.55}
 --- !u!1 &6837070780482130607
 GameObject:
   m_ObjectHideFlags: 0
