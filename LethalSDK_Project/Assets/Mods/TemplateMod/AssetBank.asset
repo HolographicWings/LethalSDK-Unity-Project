@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: -2065973508, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
   m_Name: AssetBank
   m_EditorClassIdentifier: 
-  _clips: []
-  serializedData: 
+  _audioClips: []
+  _planetPrefabs:
+  - PlanetPrefabName: 
+    PlanetPrefabPath: 
+    PlanetPrefab: {fileID: 2802582009948295791, guid: 2929e118fcbe70941ac48b745a033b69,
+      type: 3}
+  serializedAudioClips: 
+  serializedPlanetPrefabs: OldSeaPortPlanetPrefab,Assets/Mods/TemplateMod/Moons/OldSeaPortPlanetPrefab.prefab

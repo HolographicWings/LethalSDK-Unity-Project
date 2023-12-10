@@ -202,6 +202,8 @@ How to use :
 </details>
 
 ## Changes :
+- 1.1.6 :
+	- Fixed ShipNavmesh Prefab
 - 1.1.5 :
 	- Added water support
 	- Fixed minor issues

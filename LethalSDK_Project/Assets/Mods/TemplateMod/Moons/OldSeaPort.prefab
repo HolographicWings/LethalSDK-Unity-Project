@@ -4179,8 +4179,13 @@ MonoBehaviour:
   ChangeRoom: 1
   Room: -3474
   ElevatorTriggerForProps: 1
+  SetInElevatorTrigger: 0
+  IsShipRoom: 0
+  ToggleLocalFog: 0
+  FogEnabledAmount: 10
   SetInsideAtmosphere: 0
   InsideLighting: 0
+  WeatherEffect: -1
   EffectEnabled: 1
   DisableAllWeather: 0
   EnableCurrentLevelWeather: 1
@@ -6327,8 +6332,13 @@ MonoBehaviour:
   ChangeRoom: 1
   Room: -545
   ElevatorTriggerForProps: 0
+  SetInElevatorTrigger: 0
+  IsShipRoom: 0
+  ToggleLocalFog: 0
+  FogEnabledAmount: 10
   SetInsideAtmosphere: 1
   InsideLighting: 1
+  WeatherEffect: -1
   EffectEnabled: 0
   DisableAllWeather: 1
   EnableCurrentLevelWeather: 0
@@ -7788,6 +7798,7 @@ GameObject:
   - component: {fileID: 1262066695216622015}
   - component: {fileID: 4669715166908330389}
   - component: {fileID: 8271063942489822754}
+  - component: {fileID: 8674279626601243003}
   m_Layer: 0
   m_Name: WaterDeep
   m_TagString: Untagged
@@ -7882,6 +7893,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &8674279626601243003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6282430082798662811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 0
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 1
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &6425981286118035977
 GameObject:
   m_ObjectHideFlags: 0
@@ -9886,7 +9916,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.11666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: c1bd495b877902548b1b65563a18d3ac, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 11b2d3b6c3243224bb6e6a48156a0b83, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &8388611541194108819
 GameObject:
