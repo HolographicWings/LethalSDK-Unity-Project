@@ -202,13 +202,15 @@ How to use :
 </details>
 
 ## Changes :
+- 1.1.7 :
+	- New file extension for Modules.
 - 1.1.6 :
-	- Fixed ShipNavmesh Prefab
+	- Fixed ShipNavmesh Prefab.
 - 1.1.5 :
-	- Added water support
-	- Fixed minor issues
-	- Updated moon support
-	- Added Old Sea Port map and Assets
+	- Added water support.
+	- Fixed minor issues.
+	- Updated moon support.
+	- Added Old Sea Port map and Assets.
 - 1.1.4 :
 	- Game Version 45 Ready.
 - 1.1.3 :
