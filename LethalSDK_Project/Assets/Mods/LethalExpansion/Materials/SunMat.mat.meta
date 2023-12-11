@@ -1,10 +1,8 @@
 fileFormatVersion: 2
 guid: 0b282b044cd44974ea703cdfef97cfe5
-timeCreated: 1700366127
-licenseType: Free
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  userData: 
+  assetBundleName: lethalexpansion
+  assetBundleVariant: lem

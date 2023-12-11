@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16055983, g: 0.10025771, b: 0.062574886, a: 1}
+  m_IndirectSpecularColor: {r: 0.543334, g: 0.3387424, b: 0.21121067, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -321,6 +321,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldSeaPort
       objectReference: {fileID: 0}
+    - target: {fileID: 7893818475220501376, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -390,7 +395,7 @@ PrefabInstance:
     - target: {fileID: 2016254630306542993, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
