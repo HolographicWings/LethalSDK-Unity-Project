@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get install p7zip-full
 
     - name: Extract Version from Tag
-      run: echo "VERSION=${GITHUB_REF##*/}" | cut -c 2- >> $GITHUB_ENV
+      run: echo "VERSION=$(echo ${GITHUB_REF} | sed 's/refs\/tags\/v//')" >> $GITHUB_ENV
 
     - name: Zip files
       run: 7z a -tzip -mx=9 ./Build/LethalSDK_Project.zip ./LethalSDK_Project
