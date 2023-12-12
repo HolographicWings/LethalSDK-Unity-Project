@@ -31,7 +31,7 @@ jobs:
     - name: 7z files
       run: 7z a -mx=9 ./Releases/LethalSDK_v${{ env.VERSION }}.7z ./Build/*
 
-    - name: Upload Release Asset
+    - name: Upload Release Asset Zip
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.LETHAL_SDK_SECRET }}
@@ -40,3 +40,13 @@ jobs:
         asset_path: ./Releases/LethalSDK_v${{ env.VERSION }}.zip
         asset_name: LethalSDK_v${{ env.VERSION }}.zip
         asset_content_type: application/zip
+
+    - name: Upload Release Asset 7z
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.LETHAL_SDK_SECRET }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./Releases/LethalSDK_v${{ env.VERSION }}.7z
+        asset_name: LethalSDK_v${{ env.VERSION }}.7z
+        asset_content_type: application/x-7z-compressed
