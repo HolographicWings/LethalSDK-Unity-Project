@@ -223,6 +223,7 @@ How to use :
 	- Automatic asset bundle addressing.
 
 ## Planned features :
+- Drop pod implementation.
 - Custom Map Objects and Outside Objects.
 - Custom Level Ambiances.
 - Custom Dungeon Flows (will take a long time).
