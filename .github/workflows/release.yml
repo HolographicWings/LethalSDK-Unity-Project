@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get install p7zip-full
 
     - name: Extract Version from Tag
-      run: echo "VERSION=${GITHUB_REF##*/}" | sed 's/^v//' >> $GITHUB_ENV
+      run: echo "VERSION=${GITHUB_REF##*/}" | cut -c 2- >> $GITHUB_ENV
 
     - name: Zip files
       run: 7z a -tzip -mx=9 ./Build/LethalSDK_Project.zip ./LethalSDK_Project
@@ -50,3 +50,31 @@ jobs:
         asset_path: ./Releases/LethalSDK_v${{ env.VERSION }}.7z
         asset_name: LethalSDK_v${{ env.VERSION }}.7z
         asset_content_type: application/x-7z-compressed
+        
+    - name: Get Text from last.txt
+      run: |
+        LAST_EXPANSION_VERSION=$(curl -s https://raw.githubusercontent.com/HolographicWings/LethalExpansion/main/last.txt)
+        echo "LAST_EXPANSION_VERSION=$LAST_EXPANSION_VERSION" >> $GITHUB_ENV
+        
+    - name: Upload Release Asset Zip
+      uses: GreenTF/upload-thunderstore-package@v4.1
+      with:
+        namespace: HolographicWings
+        description: Lethal Company Development Kit to easily add new Scraps, Moons and more in future.
+        token: ${{ secrets.THUNDERSTORE_TOKEN }}
+        name: LethalSDK
+        version: ${{ env.VERSION }}
+        community: lethal-company
+        categories: |
+          bepinex
+          items
+          moons
+          mods
+          audio
+          misc
+          tools
+        deps: |
+          BepInEx-BepInExPack-5.4.2100
+          HolographicWings-LethalExpansion-${{ env.LAST_EXPANSION_VERSION }}
+        website: https://github.com/HolographicWings/LethalSDK-Unity-Project
+        file: ./Releases/LethalSDK_v${{ env.VERSION }}.zip
