@@ -1,0 +1,36 @@
+name: Package and Release
+
+on:
+  release:
+    types: [published]
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install 7-Zip
+      run: sudo apt-get install p7zip-full
+
+    - name: Extract Version from Tag
+      run: echo "VERSION=$(echo $GITHUB_REF | sed 's/refs\/tags\/v//')" >> $GITHUB_ENV
+
+    - name: Zip files
+      run: 7z a -mx=9 ./Build/LethalSDK_Project.zip ./LethalSDK_Project
+
+    - name: Zip files
+      run: 7z a -mx=9 ./Releases/LethalSDK_${{ env.VERSION }}.zip ./Build/*
+
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.LETHAL_SDK_SECRET }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./Releases/LethalSDK_${{ env.VERSION }}.zip
+        asset_name: LethalSDK_${{ env.VERSION }}.zip
+        asset_content_type: application/zip
