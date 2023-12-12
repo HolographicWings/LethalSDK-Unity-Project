@@ -8,7 +8,8 @@ Features :
 - New scraps.
 - New moons.
 
-[![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/LethalSDK-Unity-Project/total.svg?style=for-the-badge)](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
+[Download it on the Thunderstore](https://thunderstore.io/c/lethal-company/p/HolographicWings/LethalSDK/)
+<!--[![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/LethalSDK-Unity-Project/total.svg?style=for-the-badge)](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)-->
 
 ## Usage :
 Requirement :
