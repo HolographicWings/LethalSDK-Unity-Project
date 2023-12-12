@@ -23,7 +23,7 @@ jobs:
       run: 7z a -mx=9 ./Build/LethalSDK_Project.zip ./LethalSDK_Project
 
     - name: Zip files
-      run: 7z a -mx=9 ./Releases/LethalSDK_${{ env.VERSION }}.zip ./Build/*
+      run: 7z a -mx=9 ./Releases/LethalSDK_${{ env.VERSION }}.zip ./Build/LethalSDK_Project.zip ./Build/icon.png ./Build/manifest.json ./Build/README.md
 
     - name: Upload Release Asset
       uses: actions/upload-release-asset@v1
