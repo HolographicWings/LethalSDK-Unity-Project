@@ -39,7 +39,7 @@ jobs:
       run: 7z a -t7z -mx=9 ./Build/LethalSDK_Project.7z ./LethalSDK_Project
 
     - name: 7z files
-      run: 7z a -t7z -mx=9 ./Releases/LethalSDK_v${{ env.VERSION }}.7z ./Build/*
+      run: 7z a -t7z -mx=9 ./Releases/LethalSDK_v${{ env.VERSION }}.7z ./Build/* -x!LethalSDK_Project.zip
 
     - name: Upload Release Asset 7z
       uses: actions/upload-release-asset@v1
