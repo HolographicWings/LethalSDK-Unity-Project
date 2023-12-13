@@ -84,122 +84,128 @@ How to use :
   <details>
   <summary>Orbit Prefabs:</summary>
   <ul>
-  <li>Moon1</li>
-  <li>Moon2</li>
-  <li>Moon3</li>
+	  <li>Moon1</li>
+	  <li>Moon2</li>
+	  <li>Moon3</li>
   </ul>
   </details>
   <details>
   <summary>Map Objects:</summary>
   <ul>
-  <li>Landmine</li>
-  <li>TurretContainer</li>
+	  <li>Landmine</li>
+	  <li>TurretContainer</li>
   </ul>
   </details>
   <details>
   <summary>OutsideObjects:</summary>
   <ul>
-  <li>LargeRock1</li>
-  <li>LargeRock2</li>
-  <li>LargeRock3</li>
-  <li>LargeRock4</li>
-  <li>TreeLeafless1</li>
-  <li>TreeLeafless2Snowy</li>
-  <li>TreeLeafless3Snowy</li>
-  <li>SmallGreyRocks1</li>
-  <li>SmallGreyRocks2</li>
-  <li>GiantPumpkin</li>
-  <li>Tree1</li>
+	  <li>LargeRock1</li>
+	  <li>LargeRock2</li>
+	  <li>LargeRock3</li>
+	  <li>LargeRock4</li>
+	  <li>TreeLeafless1</li>
+	  <li>TreeLeafless2Snowy</li>
+	  <li>TreeLeafless3Snowy</li>
+	  <li>SmallGreyRocks1</li>
+	  <li>SmallGreyRocks2</li>
+	  <li>GiantPumpkin</li>
+	  <li>Tree1</li>
   </ul>
   </details>
   <details>
   <summary>Scraps:</summary>
   <ul>
-  <li>Cog1</li>
-  <li>EnginePart1</li>
-  <li>FishTestProp</li>
-  <li>MetalSheet</li>
-  <li>FlashLaserPointer</li>
-  <li>BigBolt</li>
-  <li>BottleBin</li>
-  <li>Ring</li>
-  <li>SteeringWheel</li>
-  <li>MoldPan</li>
-  <li>EggBeater</li>
-  <li>PickleJar</li>
-  <li>DustPan</li>
-  <li>Airhorn</li>
-  <li>ClownHorn</li>
-  <li>CashRegister</li>
-  <li>Candy</li>
-  <li>GoldBar</li>
-  <li>YieldSign</li>
-  <li>ToyCube</li>
-  <li>Remote</li>
-  <li>RobotToy</li>
-  <li>MagnifyingGlass</li>
-  <li>StopSign</li>
-  <li>TeaKettle</li>
-  <li>Mug</li>
-  <li>SodaCanRed</li>
-  <li>Phone</li>
-  <li>Hairdryer</li>
-  <li>Brush</li>
-  <li>Bell</li>
-  <li>RubberDuck</li>
-  <li>ChemicalJug</li>
-  <li>FancyLamp</li>
-  <li>FancyCup</li>
-  <li>FancyPainting</li>
-  <li>Toothpaste</li>
-  <li>PillBottle</li>
-  <li>PerfumeBottle</li>
-  <li>Dentures</li>
-  <li>7Ball</li>
-  <li>DiyFlashbang (Update 45)</li>
-  <li>GiftBox (Update 45)</li>
-  <li>Flask (Update 45)</li>
-  <li>WhoopieCushion (Update 45)</li>
-  <li>ComedyMask (Update 45)</li>
-  <li>TragedyMask (Update 45)</li>
+	  <li>Cog1</li>
+	  <li>EnginePart1</li>
+	  <li>FishTestProp</li>
+	  <li>MetalSheet</li>
+	  <li>FlashLaserPointer</li>
+	  <li>BigBolt</li>
+	  <li>BottleBin</li>
+	  <li>Ring</li>
+	  <li>SteeringWheel</li>
+	  <li>MoldPan</li>
+	  <li>EggBeater</li>
+	  <li>PickleJar</li>
+	  <li>DustPan</li>
+	  <li>Airhorn</li>
+	  <li>ClownHorn</li>
+	  <li>CashRegister</li>
+	  <li>Candy</li>
+	  <li>GoldBar</li>
+	  <li>YieldSign</li>
+	  <li>ToyCube</li>
+	  <li>Remote</li>
+	  <li>RobotToy</li>
+	  <li>MagnifyingGlass</li>
+	  <li>StopSign</li>
+	  <li>TeaKettle</li>
+	  <li>Mug</li>
+	  <li>SodaCanRed</li>
+	  <li>Phone</li>
+	  <li>Hairdryer</li>
+	  <li>Brush</li>
+	  <li>Bell</li>
+	  <li>RubberDuck</li>
+	  <li>ChemicalJug</li>
+	  <li>FancyLamp</li>
+	  <li>FancyCup</li>
+	  <li>FancyPainting</li>
+	  <li>Toothpaste</li>
+	  <li>PillBottle</li>
+	  <li>PerfumeBottle</li>
+	  <li>Dentures</li>
+	  <li>7Ball</li>
+	  <li>DiyFlashbang (Update 45)</li>
+	  <li>GiftBox (Update 45)</li>
+	  <li>Flask (Update 45)</li>
+	  <li>WhoopieCushion (Update 45)</li>
+	  <li>ComedyMask (Update 45)</li>
+	  <li>TragedyMask (Update 45)</li>
   </ul>
   </details>
   <details>
   <summary>Ambiances:</summary>
   <ul>
-  <li>Level1TypeAmbience</li>
-  <li>ForestTypeAmbience</li>
-  <li>MansionTypeAmbience</li>
+	  <li>Level1TypeAmbience</li>
+	  <li>ForestTypeAmbience</li>
+	  <li>MansionTypeAmbience</li>
   </ul>
   </details>
   <details>
   <summary>Enemies:</summary>
   <ul>
-  <li>Centipede</li>
-  <li>SandSpider</li>
-  <li>HoarderBug</li>
-  <li>Flowerman</li>
-  <li>Crawler</li>
-  <li>Blob</li>
-  <li>DressGirl</li>
-  <li>Puffer</li>
-  <li>MouthDog</li>
-  <li>ForestGiant</li>
-  <li>SandWorm</li>
-  <li>RedLocustBees</li>
-  <li>Doublewing</li>
-  <li>DocileLocustBees</li>
-  <li>BaboonHawk</li>
-  <li>SpringMan</li>
-  <li>Jester</li>
-  <li>LassoMan</li>
-  <li>Nutcracker (Update 45)</li>
-  <li>MaskedPlayerEnemy (Update 45)</li>
+	  <li>Centipede</li>
+	  <li>SandSpider</li>
+	  <li>HoarderBug</li>
+	  <li>Flowerman</li>
+	  <li>Crawler</li>
+	  <li>Blob</li>
+	  <li>DressGirl</li>
+	  <li>Puffer</li>
+	  <li>MouthDog</li>
+	  <li>ForestGiant</li>
+	  <li>SandWorm</li>
+	  <li>RedLocustBees</li>
+	  <li>Doublewing</li>
+	  <li>DocileLocustBees</li>
+	  <li>BaboonHawk</li>
+	  <li>SpringMan</li>
+	  <li>Jester</li>
+	  <li>LassoMan</li>
+	  <li>Nutcracker (Update 45)</li>
+	  <li>MaskedPlayerEnemy (Update 45)</li>
   </ul>
   </details>
 </details>
 
 ## Changes :
+- 1.2.0 :
+	- Added support for more Fire Exits.
+	- Added Item Drop Ship support.
+	- New moons can now be hidden from the Terminal if wished.
+	- Added an Old Asset Remover.
+	- Added a Version Checker.
 - 1.1.7 :
 	- New file extension for Modules.
 - 1.1.6 :

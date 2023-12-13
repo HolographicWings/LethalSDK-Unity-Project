@@ -15,6 +15,8 @@ MonoBehaviour:
   MoonName: Wateridge
   RequiredBundles:
   - oldseaport
+  IncompatibleBundles: []
+  IsEnabled: 1
   IsHidden: 0
   IsLocked: 0
   OrbitPrefabName: OldSeaPortPlanetPrefab
@@ -25,9 +27,9 @@ MonoBehaviour:
   PlanetDescription: 'A warm, temperate moon, once frozen but now warmed by intense
     industrial exploitation to harvest a bacterial strain from its ice.
 
-    It
-    was named for its active tectonic plates that created magnificent mountains of
-    pure, incandescent ice under the sun''s rays in a clear, carbon-free atmosphere.
+    It was
+    named for its active tectonic plates that created magnificent mountains of pure,
+    incandescent ice under the sun''s rays in a clear, carbon-free atmosphere.
 
     Though
     the atmosphere became breathable after it''s pollution, it was at the cost of
@@ -67,6 +69,7 @@ MonoBehaviour:
   RoutePrice: 0
   BoughtComment: BEWARE! High danger.
   FactorySizeMultiplier: 3.5
+  FireExitsAmountOverwrite: 1
   _DungeonFlowTypes:
   - ID: 0
     Rarity: 300
@@ -171,8 +174,8 @@ MonoBehaviour:
     SpawnWeight: 14
   - ObjectName: FancyPainting
     SpawnWeight: 12
-  MinScrap: 22
-  MaxScrap: 32
+  MinScrap: 28
+  MaxScrap: 42
   LevelAmbienceClips: MansionTypeAmbience
   MaxEnemyPowerCount: 28
   _Enemies:

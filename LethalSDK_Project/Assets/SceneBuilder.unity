@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.543334, g: 0.3387424, b: 0.21121067, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -215,36 +215,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1409267446642240162, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
     - target: {fileID: 1450911994970206587, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 323776226
       objectReference: {fileID: 0}
-    - target: {fileID: 1629171831679663416, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
     - target: {fileID: 1858289568623118126, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 3425621320
       objectReference: {fileID: 0}
-    - target: {fileID: 2167802186189761079, guid: 5fff06d78c7b6254da586ea672d29773,
+    - target: {fileID: 2102470384050978693, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+      propertyPath: GlobalObjectIdHash
+      value: 1216948024
+      objectReference: {fileID: 0}
     - target: {fileID: 2603724186460320284, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: m_NavMeshData
       value: 
-      objectReference: {fileID: 23800000, guid: 11b2d3b6c3243224bb6e6a48156a0b83,
+      objectReference: {fileID: 23800000, guid: 792dfb2c0756ced439bd635842af0909,
         type: 2}
     - target: {fileID: 3075121074509954486, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
@@ -296,35 +286,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3154100704114949617, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
-    - target: {fileID: 3997409583408961754, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
-    - target: {fileID: 4266630859826858369, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
-    - target: {fileID: 5221369618377257232, guid: 5fff06d78c7b6254da586ea672d29773,
+    - target: {fileID: 5425016020252481907, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 344735557
+      value: 395344817
       objectReference: {fileID: 0}
     - target: {fileID: 7893818475220501376, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: m_Name
       value: OldSeaPort
-      objectReference: {fileID: 0}
-    - target: {fileID: 7893818475220501376, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -395,7 +365,7 @@ PrefabInstance:
     - target: {fileID: 2016254630306542993, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
@@ -447,21 +417,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3406183340144770402, guid: 718fcf9bfba85b64bb28a71f9355886e,
+    - target: {fileID: 4454371767405027629, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 1698559251
+      value: 3147598568
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136622617006320790, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2791040087
       objectReference: {fileID: 0}
     - target: {fileID: 7389997359633703437, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: GlobalObjectIdHash
       value: 4077987165
       objectReference: {fileID: 0}
-    - target: {fileID: 9026857127207217996, guid: 718fcf9bfba85b64bb28a71f9355886e,
+    - target: {fileID: 8320599684188199206, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 1308851407
+      value: 1993034659
       objectReference: {fileID: 0}
+    - target: {fileID: 9165963010203798951, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: ecb2297deacf4454aa1a9d1e7ca28129,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
