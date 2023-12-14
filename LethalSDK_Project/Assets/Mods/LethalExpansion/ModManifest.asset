@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modName: LethalExpansion
   version:
-    Major: 0
-    Minor: 0
+    Major: 1
+    Minor: 2
     Build: 0
     Revision: 0
+  serializedVersion: 1.2.0.0
   author: HolographicWings
   description: Main Module.
-  _scraps: []
-  serializedData: 
+  scraps: []
+  moons: []
   assetBank: {fileID: 0}
