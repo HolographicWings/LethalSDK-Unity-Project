@@ -24,16 +24,24 @@ MonoBehaviour:
   PlanetName: 102 Wateridge
   MainPrefab: {fileID: 7893818475220501376, guid: 5fff06d78c7b6254da586ea672d29773,
     type: 3}
-  PlanetDescription: A warm, temperate moon, once frozen but now warmed by intense
-    industrial exploitation to harvest a bacterial strain from its ice.It was named
-    for its active tectonic plates that created magnificent mountains of pure, incandescent
-    ice under the suns rays in a clear, carbon-free atmosphere.Though the atmosphere
-    became breathable after its pollution, it was at the cost of its solid surface.Tectonic
-    plates and water did not get along well during the early melting of the moon,
-    which is why the majority of the population left the planet.But there are no
-    more plates anymore, the remaining population eventually left as a result of
-    the numerous space travels that brought various stowaway megafaunas to the remaining
-    floating platforms on the Moon.
+  PlanetDescription: 'A warm, temperate moon, once frozen but now warmed by intense
+    industrial exploitation to harvest a bacterial strain from its ice.
+
+    It was
+    named for its active tectonic plates that created magnificent mountains of pure,
+    incandescent ice under the sun''s rays in a clear, carbon-free atmosphere.
+
+    Though
+    the atmosphere became breathable after it''s pollution, it was at the cost of
+    its solid surface.
+
+    Tectonic plates and water did not get along well during
+    the early melting of the moon, which is why the majority of the population left
+    the planet.
+
+    But there are no more plates anymore, the remaining population
+    eventually left as a result of the numerous space travels that brought various
+    stowaway megafaunas to the remaining floating platforms on the Moon.'
   PlanetVideo: {fileID: 32900000, guid: da94c31b219310c499000f821e27da43, type: 3}
   RiskLevel: S
   TimeToArrive: 4
