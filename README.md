@@ -203,9 +203,11 @@ How to use :
 </details>
 
 ## Changes :
-- 1.2.8 :
+- 1.2.11 :
+	- Fixed monster names parsing issue that made inside monsters spawn outside.
 	- Ajusted default scrap spawn weights.
 	- Ajusted version checker.
+	- Some null exceptions covered.
 - 1.2.7 :
 	- Renamed UseGlobalSpawnRate field into UseGlobalSpawnWeight.
 	- Added some missing options for scraps.
