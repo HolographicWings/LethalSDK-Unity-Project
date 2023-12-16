@@ -203,7 +203,11 @@ How to use :
 </details>
 
 ## Changes :
+- 1.2.8 :
+	- Ajusted default scrap spawn weights.
+	- Ajusted version checker.
 - 1.2.7 :
+	- Renamed UseGlobalSpawnRate field into UseGlobalSpawnWeight.
 	- Added some missing options for scraps.
 	- Added a security in name of assets to avoid errors.
 	- Added several editor rules to guide users.
