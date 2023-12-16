@@ -68,8 +68,8 @@ MonoBehaviour:
   RouteWord: wateridge
   RoutePrice: 0
   BoughtComment: BEWARE! High danger.
-  FactorySizeMultiplier: 3.5
-  FireExitsAmountOverwrite: 1
+  FactorySizeMultiplier: 3
+  FireExitsAmountOverwrite: 2
   _DungeonFlowTypes:
   - ID: 0
     Rarity: 300
@@ -85,7 +85,7 @@ MonoBehaviour:
   - ObjectName: MetalSheet
     SpawnWeight: 40
   - ObjectName: FlashLaserPointer
-    SpawnWeight: 11
+    SpawnWeight: 10
   - ObjectName: BigBolt
     SpawnWeight: 33
   - ObjectName: BottleBin
@@ -97,21 +97,19 @@ MonoBehaviour:
   - ObjectName: MoldPan
     SpawnWeight: 5
   - ObjectName: EggBeater
-    SpawnWeight: 10
+    SpawnWeight: 13
   - ObjectName: PickleJar
     SpawnWeight: 10
   - ObjectName: DustPan
     SpawnWeight: 32
   - ObjectName: Airhorn
-    SpawnWeight: 3
+    SpawnWeight: 5
   - ObjectName: ClownHorn
-    SpawnWeight: 3
+    SpawnWeight: 5
   - ObjectName: CashRegister
-    SpawnWeight: 6
-  - ObjectName: Candy
-    SpawnWeight: 2
-  - ObjectName: GoldBar
     SpawnWeight: 4
+  - ObjectName: GoldBar
+    SpawnWeight: 2
   - ObjectName: YieldSign
     SpawnWeight: 6
   - ObjectName: Battery
@@ -125,39 +123,37 @@ MonoBehaviour:
   - ObjectName: Tape
     SpawnWeight: 20
   - ObjectName: Bell
-    SpawnWeight: 22
+    SpawnWeight: 17
   - ObjectName: RubberDuck
-    SpawnWeight: 28
+    SpawnWeight: 22
   - ObjectName: DiyFlashbang
-    SpawnWeight: 25
+    SpawnWeight: 12
   - ObjectName: GiftBox
-    SpawnWeight: 29
+    SpawnWeight: 22
   - ObjectName: Flask
-    SpawnWeight: 29
+    SpawnWeight: 22
   - ObjectName: WhoopieCushion
     SpawnWeight: 11
   - ObjectName: ComedyMask
-    SpawnWeight: 16
+    SpawnWeight: 12
   - ObjectName: TragedyMask
-    SpawnWeight: 22
-  - ObjectName: 7Ball
-    SpawnWeight: 13
-  - ObjectName: Dentures
     SpawnWeight: 18
+  - ObjectName: 7Ball
+    SpawnWeight: 11
+  - ObjectName: Dentures
+    SpawnWeight: 13
   - ObjectName: PerfumeBottle
-    SpawnWeight: 22
-  - ObjectName: ChemicalJug
-    SpawnWeight: 38
-  - ObjectName: Brush
-    SpawnWeight: 37
-  - ObjectName: Hairdryer
-    SpawnWeight: 42
-  - ObjectName: SodaCanRed
-    SpawnWeight: 26
-  - ObjectName: Phone
     SpawnWeight: 17
-  - ObjectName: StopSign
-    SpawnWeight: 7
+  - ObjectName: ChemicalJug
+    SpawnWeight: 22
+  - ObjectName: Brush
+    SpawnWeight: 27
+  - ObjectName: Hairdryer
+    SpawnWeight: 26
+  - ObjectName: SodaCanRed
+    SpawnWeight: 20
+  - ObjectName: Phone
+    SpawnWeight: 15
   - ObjectName: MagnifyingGlass
     SpawnWeight: 10
   - ObjectName: RobotToy
@@ -165,17 +161,17 @@ MonoBehaviour:
   - ObjectName: ToyCube
     SpawnWeight: 14
   - ObjectName: Candy
-    SpawnWeight: 17
+    SpawnWeight: 13
   - ObjectName: Toothpaste
     SpawnWeight: 13
   - ObjectName: FancyLamp
-    SpawnWeight: 7
+    SpawnWeight: 5
   - ObjectName: FancyCup
-    SpawnWeight: 14
+    SpawnWeight: 11
   - ObjectName: FancyPainting
-    SpawnWeight: 12
-  MinScrap: 28
-  MaxScrap: 42
+    SpawnWeight: 8
+  MinScrap: 24
+  MaxScrap: 36
   LevelAmbienceClips: MansionTypeAmbience
   MaxEnemyPowerCount: 28
   _Enemies:
@@ -207,31 +203,31 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: -3
-      inSlope: 59.199333
-      outSlope: 59.199333
+      time: -0.0000075316057
+      value: 0.0028076172
+      inSlope: 41.64636
+      outSlope: 41.64636
       tangentMode: 0
       weightedMode: 3
       inWeight: 0
-      outWeight: 0.18829483
+      outWeight: 0.27326855
     - serializedVersion: 3
-      time: 0.27455312
-      value: 2.0556421
-      inSlope: 20.751213
-      outSlope: 20.751213
+      time: 0.21543768
+      value: 4.2777567
+      inSlope: 14.2851925
+      outSlope: 14.2851925
       tangentMode: 0
       weightedMode: 3
-      inWeight: 0.35729825
+      inWeight: 0.51821417
       outWeight: 0.40484196
     - serializedVersion: 3
       time: 0.7631003
       value: 11.275558
-      inSlope: 25.289257
-      outSlope: 25.289257
+      inSlope: 16.300922
+      outSlope: 16.300922
       tangentMode: 0
       weightedMode: 3
-      inWeight: 0.41667995
+      inWeight: 0.6316298
       outWeight: 0.5360636
     - serializedVersion: 3
       time: 1
@@ -245,7 +241,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  SpawnProbabilityRange: 8
+  SpawnProbabilityRange: 4
   _SpawnableMapObjects:
   - ObjectName: Landmine
     SpawnFacingAwayFromWall: 0
@@ -422,7 +418,7 @@ MonoBehaviour:
   LevelIncludesSnowFootprints: 0
   serializedRandomWeatherTypes: -1,0,0;1,0,0;2,1,0;3,1,0;5,1,0
   serializedDungeonFlowTypes: 0,300;1,20
-  serializedSpawnableScrap: Cog1,23;EnginePart1,19;FishTestProp,86;MetalSheet,40;FlashLaserPointer,11;BigBolt,33;BottleBin,19;Ring,3;SteeringWheel,26;MoldPan,5;EggBeater,10;PickleJar,10;DustPan,32;Airhorn,3;ClownHorn,3;CashRegister,6;Candy,2;GoldBar,4;YieldSign,6;Battery,10;CannedFood,15;Matchbox,5;Pills,2;Tape,20;Bell,22;RubberDuck,28;DiyFlashbang,25;GiftBox,29;Flask,29;WhoopieCushion,11;ComedyMask,16;TragedyMask,22;7Ball,13;Dentures,18;PerfumeBottle,22;ChemicalJug,38;Brush,37;Hairdryer,42;SodaCanRed,26;Phone,17;StopSign,7;MagnifyingGlass,10;RobotToy,8;ToyCube,14;Candy,17;Toothpaste,13;FancyLamp,7;FancyCup,14;FancyPainting,12
+  serializedSpawnableScrap: Cog1,23;EnginePart1,19;FishTestProp,86;MetalSheet,40;FlashLaserPointer,10;BigBolt,33;BottleBin,19;Ring,3;SteeringWheel,26;MoldPan,5;EggBeater,13;PickleJar,10;DustPan,32;Airhorn,5;ClownHorn,5;CashRegister,4;GoldBar,2;YieldSign,6;Battery,10;CannedFood,15;Matchbox,5;Pills,2;Tape,20;Bell,17;RubberDuck,22;DiyFlashbang,12;GiftBox,22;Flask,22;WhoopieCushion,11;ComedyMask,12;TragedyMask,18;7Ball,11;Dentures,13;PerfumeBottle,17;ChemicalJug,22;Brush,27;Hairdryer,26;SodaCanRed,20;Phone,15;MagnifyingGlass,10;RobotToy,8;ToyCube,14;Candy,13;Toothpaste,13;FancyLamp,5;FancyCup,11;FancyPainting,8
   serializedEnemies: Centipede,38;SandSpider,39;HoarderBug,20;Flowerman,31;Crawler,31;Blob,22;DressGirl,3;Puffer,16;Jester,1;SpringMan,16;Nutcracker,25;MaskedPlayerEnemy,20
   serializedOutsideEnemies: MouthDog,71;BaboonHawk,33;ForestGiant,7
   serializedDaytimeEnemies: RedLocustBees,22;Doublewing,74;DocileLocustBees,52

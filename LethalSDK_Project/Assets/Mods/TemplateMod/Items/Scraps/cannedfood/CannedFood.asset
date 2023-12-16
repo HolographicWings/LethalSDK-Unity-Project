@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
   m_Name: CannedFood
   m_EditorClassIdentifier: 
+  RequiredBundles: []
+  IncompatibleBundles: []
   itemName: Canned Food
   minValue: 40
   maxValue: 80
+  twoHanded: 0
+  twoHandedAnimation: 0
   requiresBattery: 0
+  isConductiveMetal: 1
   weight: 5
   prefab: {fileID: 1065474741640855, guid: baa8d2066558c9a4ebcd1853c4c3ac4e, type: 3}
   grabSFX: 

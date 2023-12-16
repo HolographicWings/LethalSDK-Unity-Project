@@ -16,9 +16,9 @@ MonoBehaviour:
   version:
     Major: 1
     Minor: 2
-    Build: 0
+    Build: 7
     Revision: 0
-  serializedVersion: 1.2.0.0
+  serializedVersion: 1.2.7.0
   author: HolographicWings
   description: This mod is a template.
   scraps:

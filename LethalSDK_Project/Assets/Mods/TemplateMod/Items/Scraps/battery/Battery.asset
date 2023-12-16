@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
   m_Name: Battery
   m_EditorClassIdentifier: 
+  RequiredBundles: []
+  IncompatibleBundles: []
   itemName: Battery
   minValue: 50
   maxValue: 100
+  twoHanded: 0
+  twoHandedAnimation: 0
   requiresBattery: 0
+  isConductiveMetal: 1
   weight: 5
   prefab: {fileID: 1664074090380030, guid: b0d83189af989ae45bbf4ac39d607742, type: 3}
   grabSFX: 
@@ -26,6 +31,7 @@ MonoBehaviour:
   rotationOffset: {x: 81, y: 105, z: 354}
   meshVariants: []
   materialVariants: []
+  useGlobalSpawnWeight: 1
   useGlobalSpawnRate: 0
   globalSpawnWeight: 10
   _perPlanetSpawnWeight:
