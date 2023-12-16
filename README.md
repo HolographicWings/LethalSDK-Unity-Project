@@ -204,6 +204,7 @@ How to use :
 
 ## Changes :
 - 1.2.7 :
+	- Added some missing options for scraps.
 	- Added a security in name of assets to avoid errors.
 	- Added several editor rules to guide users.
 	- Overall micro optimizations of assets made with SDK.
