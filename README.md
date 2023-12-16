@@ -203,6 +203,12 @@ How to use :
 </details>
 
 ## Changes :
+- 1.2.7 :
+	- Added a security in name of assets to avoid errors.
+	- Added several editor rules to guide users.
+	- Overall micro optimizations of assets made with SDK.
+	- Wateridge optimization first pass.
+	- Fixed external scan nodes.
 - 1.2.0 :
 	- Added support for more Fire Exits.
 	- Added Item Drop Ship support.
