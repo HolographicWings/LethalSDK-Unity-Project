@@ -34,7 +34,7 @@ How to use :
 - You can follow how the TemplateMod is made to make your own stuff.
   In the root of the project, you can find a scene called SceneBuilder, this scene is usefull to easily make your own moons, just make a prefab from the scene by drag and dropping the parent object to the file explorer.
 - When your mod is finished, click on the LethalSDK tab in the top of Unity, then click on AssetBundle Builder, and finally click on Build AssetBundles. (The first building will be longer)
-- When built, you can find your Asset Bundle in the folder you set, this Asset Bundle must be placed in the "Lethal Company\BepInEx\plugins\LethalExpansion\Modules\" to be loaded. (Only the file with the name of your mod, the manifest is not required)
+- When built, you can find your Asset Bundle in the folder you set, this Asset Bundle must be placed anywhere in the "Plugins" folder of BepInEx and require LethalExpansion installed to be loaded. (Only the file with the name of your mod, the manifest is not required)
   WARNING : Of course, all players must have the same mods in order to join the same lobby.
 
 <details>
