@@ -20,7 +20,7 @@ MonoBehaviour:
   IsLocked: 0
   OrbitPrefabName: christmasvillagemoonplanetprefabmat
   SpawnEnemiesAndScrap: 1
-  PlanetName: Christmas Village
+  PlanetName: Christmas Village Event
   MainPrefab: {fileID: 9104913699247556259, guid: 051ddcf615b569040bee4f8adf9f91f1,
     type: 3}
   PlanetDescription: Merry Christmas!
