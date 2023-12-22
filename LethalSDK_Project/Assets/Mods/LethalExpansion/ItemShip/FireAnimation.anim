@@ -7,7 +7,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FireAnimation
+  m_Name: fireanimation
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -181,7 +181,7 @@ AnimationClip:
     - time: 6.5833335
       value: {fileID: 21300000, guid: 3d662337e463f324db0974f7ba1442bd, type: 2}
     attribute: m_Sprite
-    path:
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 0

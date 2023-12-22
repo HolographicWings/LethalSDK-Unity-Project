@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
-  m_Name: CannedFood
+  m_Name: cannedfood
   m_EditorClassIdentifier: 
   RequiredBundles: []
   IncompatibleBundles: []
@@ -31,7 +31,7 @@ MonoBehaviour:
   rotationOffset: {x: 70.5, y: 118, z: 34.5}
   meshVariants: []
   materialVariants: []
-  useGlobalSpawnRate: 0
+  useGlobalSpawnWeight: 0
   globalSpawnWeight: 15
   _perPlanetSpawnWeight:
   - SceneName: 41 Experimentation

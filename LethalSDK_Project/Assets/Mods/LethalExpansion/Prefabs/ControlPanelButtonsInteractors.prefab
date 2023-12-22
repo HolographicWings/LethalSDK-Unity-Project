@@ -570,7 +570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3031708914468553156}
   m_Layer: 8
-  m_Name: ControlPanelButtonsInteractors
+  m_Name: controlpanelbuttonsinteractors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

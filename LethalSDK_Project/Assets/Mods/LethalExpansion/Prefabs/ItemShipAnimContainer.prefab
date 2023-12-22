@@ -128,7 +128,6 @@ GameObject:
   - component: {fileID: 2643667859454509021}
   - component: {fileID: 8234411568265300206}
   - component: {fileID: 9144608788718912142}
-  - component: {fileID: 2840557965303787660}
   - component: {fileID: 2313639816510742258}
   m_Layer: 8
   m_Name: ItemShip
@@ -335,26 +334,6 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 1.34}
   m_TimeToStationary: 1
---- !u!114 &2840557965303787660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203329122422071570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 951099334
-  AlwaysReplicateAsRoot: 0
-  SynchronizeTransform: 1
-  ActiveSceneSynchronization: 0
-  SceneMigrationSynchronization: 1
-  SpawnWithObservers: 1
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
 --- !u!114 &2313639816510742258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2705,8 +2684,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1639177900724261057}
+  - component: {fileID: 1817312560678301980}
   m_Layer: 0
-  m_Name: ItemShipAnimContainer
+  m_Name: itemshipanimcontainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2729,6 +2709,26 @@ Transform:
   - {fileID: 5593061648666107902}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1817312560678301980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8681541410405412263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1 &9086412061651393177
 GameObject:
   m_ObjectHideFlags: 0

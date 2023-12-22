@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 477402}
   - component: {fileID: 7756545895256177078}
   m_Layer: 0
-  m_Name: Wood Canopy
+  m_Name: wood canopy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

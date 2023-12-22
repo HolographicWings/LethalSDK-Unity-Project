@@ -6,7 +6,7 @@ Sprite:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Flame03-hollow_16x4_75
+  m_Name: flame03-hollow_16x4_75
   m_Rect:
     serializedVersion: 2
     x: 705.01294
@@ -19,8 +19,8 @@ Sprite:
   m_Pivot: {x: 0.608652, y: 0.4970874}
   m_Extrude: 1
   m_IsPolygon: 0
-  m_AtlasName:
-  m_PackingTag:
+  m_AtlasName: 
+  m_PackingTag: 
   m_RenderDataKey:
     e9e4cb3e628ade94cad981f3ca6e726a: 359829854
   m_AtlasTags: []
@@ -122,13 +122,13 @@ Sprite:
     alphaTexture: {fileID: 0}
     secondaryTextures: []
     m_SubMeshes: []
-    m_IndexBuffer:
+    m_IndexBuffer: 
     m_VertexData:
       serializedVersion: 3
       m_VertexCount: 0
       m_Channels: []
       m_DataSize: 0
-      _typelessdata:
+      _typelessdata: 
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
@@ -143,4 +143,4 @@ Sprite:
     downscaleMultiplier: 0
   m_PhysicsShape: []
   m_Bones: []
-  m_SpriteID:
+  m_SpriteID: 

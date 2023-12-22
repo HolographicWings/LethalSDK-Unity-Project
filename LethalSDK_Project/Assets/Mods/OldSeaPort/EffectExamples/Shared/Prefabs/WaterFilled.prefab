@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65483889500889640}
   - component: {fileID: 23732426724530400}
   m_Layer: 0
-  m_Name: WaterFilled
+  m_Name: waterfilled
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

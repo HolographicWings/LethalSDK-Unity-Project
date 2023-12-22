@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33204753361613286}
   - component: {fileID: 23229572214103842}
   m_Layer: 0
-  m_Name: Old Sea Port_Tree
+  m_Name: old sea port_tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

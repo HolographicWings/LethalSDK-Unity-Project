@@ -15,12 +15,20 @@ MonoBehaviour:
   modName: TemplateMod
   version:
     Major: 1
-    Minor: 2
-    Build: 11
+    Minor: 3
+    Build: 0
     Revision: 0
-  serializedVersion: 1.2.11.0
+  serializedVersion: 1.3.0.0
   author: HolographicWings
-  description: This mod is a template.
+  description: 'This mod is a template.
+
+
+    Assets used :
+
+    - https://assetstore.unity.com/packages/3d/props/tools/survival-game-tools-139872
+
+    -
+    https://assetstore.unity.com/packages/3d/environments/old-sea-port-environment-36897'
   scraps:
   - {fileID: 11400000, guid: 588dc5a48b56d8549a9ead2ee67aee9d, type: 2}
   - {fileID: 11400000, guid: e2621f81e47136a4fbb8c8f669d6aa02, type: 2}

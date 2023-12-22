@@ -24,8 +24,8 @@ Material:
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
-  - DistortionVectors
   - MOTIONVECTORS
+  - DistortionVectors
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3

@@ -99,15 +99,15 @@ MonoBehaviour:
     SpawnWeight: 1
   - ObjectName: YieldSign
     SpawnWeight: 6
-  - ObjectName: Battery
+  - ObjectName: battery
     SpawnWeight: 10
-  - ObjectName: CannedFood
+  - ObjectName: cannedfood
     SpawnWeight: 15
-  - ObjectName: Matchbox
+  - ObjectName: matchbox
     SpawnWeight: 5
-  - ObjectName: Pills
+  - ObjectName: pills
     SpawnWeight: 2
-  - ObjectName: Tape
+  - ObjectName: tape
     SpawnWeight: 20
   MinScrap: 8
   MaxScrap: 12
@@ -578,7 +578,7 @@ MonoBehaviour:
   LevelIncludesSnowFootprints: 0
   serializedRandomWeatherTypes: -1,0,0;1,0,0;2,1,0;3,1,0;4,-4,5;5,1,0
   serializedDungeonFlowTypes: 0,300;1,1
-  serializedSpawnableScrap: Cog1,80;EnginePart1,90;FishTestProp,12;MetalSheet,88;FlashLaserPointer,4;BigBolt,80;BottleBin,19;Ring,3;SteeringWheel,32;MoldPan,5;EggBeater,10;PickleJar,10;DustPan,32;Airhorn,3;ClownHorn,3;CashRegister,3;Candy,2;GoldBar,1;YieldSign,6;Battery,10;CannedFood,15;Matchbox,5;Pills,2;Tape,20
+  serializedSpawnableScrap: Cog1,80;EnginePart1,90;FishTestProp,12;MetalSheet,88;FlashLaserPointer,4;BigBolt,80;BottleBin,19;Ring,3;SteeringWheel,32;MoldPan,5;EggBeater,10;PickleJar,10;DustPan,32;Airhorn,3;ClownHorn,3;CashRegister,3;Candy,2;GoldBar,1;YieldSign,6;battery,10;cannedfood,15;matchbox,5;pills,2;tape,20
   serializedEnemies: Centipede,51;SandSpider,58;HoarderBug,28;Flowerman,13;Crawler,16;Blob,31;DressGirl,1;Puffer,28
   serializedOutsideEnemies: MouthDog,75;ForestGiant,0;SandWorm,56
   serializedDaytimeEnemies: RedLocustBees,22;Doublewing,74;DocileLocustBees,52

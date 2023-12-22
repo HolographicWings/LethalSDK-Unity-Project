@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 567133486779310522}
   - component: {fileID: 2824872995058243097}
   m_Layer: 0
-  m_Name: SpaceLight
+  m_Name: spacelight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

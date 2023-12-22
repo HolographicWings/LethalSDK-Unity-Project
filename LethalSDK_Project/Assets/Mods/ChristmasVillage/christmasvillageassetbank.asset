@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2065973508, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: christmasvillageassetbank
+  m_EditorClassIdentifier: 
+  _audioClips: []
+  _planetPrefabs:
+  - PlanetPrefabName: 
+    PlanetPrefabPath: 
+    PlanetPrefab: {fileID: 2802582009948295791, guid: cfa5a2304a519254fbb306aba36e41e9,
+      type: 3}
+  _networkPrefabs: []
+  serializedAudioClips: 
+  serializedPlanetPrefabs: christmasvillagemoonplanetprefabmat,Assets/Mods/ChristmasVillage/christmasvillagemoonplanetprefabmat.prefab
+  serializedNetworkPrefabs: 

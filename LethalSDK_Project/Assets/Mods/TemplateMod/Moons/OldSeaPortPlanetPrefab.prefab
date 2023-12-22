@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1156717624989977033}
   - component: {fileID: 5262988101871598219}
   m_Layer: 0
-  m_Name: OldSeaPortPlanetPrefab
+  m_Name: oldseaportplanetprefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

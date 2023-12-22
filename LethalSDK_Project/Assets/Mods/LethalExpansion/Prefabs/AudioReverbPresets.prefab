@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4118307770030790969}
   - component: {fileID: 8487835596909595094}
   m_Layer: 13
-  m_Name: OutsideAmbience
+  m_Name: OutsideShipAmbience
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,12 +59,12 @@ MonoBehaviour:
   IsShipRoom: 0
   ToggleLocalFog: 0
   FogEnabledAmount: 10
-  SetInsideAtmosphere: 0
+  SetInsideAtmosphere: 1
   InsideLighting: 0
-  WeatherEffect: -1
-  EffectEnabled: 1
+  WeatherEffect: 0
+  EffectEnabled: 0
   DisableAllWeather: 0
-  EnableCurrentLevelWeather: 1
+  EnableCurrentLevelWeather: 0
 --- !u!1 &1883494811091045461
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 505833020182701070}
   - component: {fileID: 8015563734571718957}
   m_Layer: 0
-  m_Name: AudioReverbPresets
+  m_Name: audioreverbpresets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,6 +95,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 873955747232696694}
+  - {fileID: 7909221815267708553}
   - {fileID: 499943620947684117}
   - {fileID: 4118307770030790969}
   m_Father: {fileID: 0}
@@ -112,10 +114,140 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   presets:
+  - {fileID: 8117567583726236668}
+  - {fileID: 2918799106215834567}
   - {fileID: 8949913884019669658}
   - {fileID: 1827988387111066489}
-  - {fileID: 1827988387111066489}
-  - {fileID: 1827988387111066489}
+--- !u!1 &2918799106215834567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7909221815267708553}
+  - component: {fileID: 2966663217617722451}
+  m_Layer: 13
+  m_Name: HangarAmbiance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7909221815267708553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918799106215834567}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 505833020182701070}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2966663217617722451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918799106215834567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 85075132, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangeDryLevel: 1
+  DryLevel: 0
+  ChangeHighFreq: 1
+  HighFreq: -2123
+  ChangeLowFreq: 1
+  LowFreq: -1853
+  ChangeDecayTime: 1
+  DecayTime: 3
+  ChangeRoom: 1
+  Room: -1940
+  ElevatorTriggerForProps: 0
+  SetInElevatorTrigger: 0
+  IsShipRoom: 0
+  ToggleLocalFog: 0
+  FogEnabledAmount: 10
+  SetInsideAtmosphere: 1
+  InsideLighting: 0
+  WeatherEffect: -1
+  EffectEnabled: 0
+  DisableAllWeather: 0
+  EnableCurrentLevelWeather: 0
+--- !u!1 &8117567583726236668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 873955747232696694}
+  - component: {fileID: 7817690303823095817}
+  m_Layer: 13
+  m_Name: AllayAmbiance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &873955747232696694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8117567583726236668}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 505833020182701070}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7817690303823095817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8117567583726236668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 85075132, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangeDryLevel: 1
+  DryLevel: 0
+  ChangeHighFreq: 1
+  HighFreq: -2123
+  ChangeLowFreq: 1
+  LowFreq: -1853
+  ChangeDecayTime: 1
+  DecayTime: 3
+  ChangeRoom: 1
+  Room: -1940
+  ElevatorTriggerForProps: 0
+  SetInElevatorTrigger: 0
+  IsShipRoom: 0
+  ToggleLocalFog: 0
+  FogEnabledAmount: 10
+  SetInsideAtmosphere: 1
+  InsideLighting: 0
+  WeatherEffect: -1
+  EffectEnabled: 0
+  DisableAllWeather: 0
+  EnableCurrentLevelWeather: 0
 --- !u!1 &8949913884019669658
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +309,7 @@ MonoBehaviour:
   FogEnabledAmount: 10
   SetInsideAtmosphere: 1
   InsideLighting: 1
-  WeatherEffect: -1
+  WeatherEffect: 0
   EffectEnabled: 0
   DisableAllWeather: 1
   EnableCurrentLevelWeather: 0

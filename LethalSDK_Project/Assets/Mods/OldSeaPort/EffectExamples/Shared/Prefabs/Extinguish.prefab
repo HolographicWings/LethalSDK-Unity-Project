@@ -71,7 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4024946413724394}
   m_Layer: 0
-  m_Name: Extinguish
+  m_Name: extinguish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

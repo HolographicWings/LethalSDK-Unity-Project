@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6500000}
   - component: {fileID: 6418705376987311260}
   m_Layer: 0
-  m_Name: Plank_1
+  m_Name: plank_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

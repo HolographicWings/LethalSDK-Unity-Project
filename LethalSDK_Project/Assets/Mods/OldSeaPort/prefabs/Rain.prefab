@@ -28,7 +28,7 @@ GameObject:
   - 198: {fileID: 19813880}
   - 199: {fileID: 19984406}
   m_Layer: 0
-  m_Name: Rain
+  m_Name: rain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

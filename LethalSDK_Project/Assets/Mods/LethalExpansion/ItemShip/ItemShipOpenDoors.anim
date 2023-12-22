@@ -7,7 +7,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ItemShipOpenDoors
+  m_Name: itemshipopendoors
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -274,7 +274,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path:
+    path: 
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -327,7 +327,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path:
+    path: 
   m_ScaleCurves: []
   m_FloatCurves:
   - serializedVersion: 2
@@ -546,7 +546,7 @@ AnimationClip:
   m_Events:
   - time: 0.016666668
     functionName: PlayAudio2Oneshot
-    data:
+    data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

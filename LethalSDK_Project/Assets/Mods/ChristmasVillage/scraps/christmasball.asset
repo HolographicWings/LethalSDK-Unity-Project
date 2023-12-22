@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: christmasball
+  m_EditorClassIdentifier: 
+  RequiredBundles: []
+  IncompatibleBundles: []
+  itemName: Christmas Ball
+  minValue: 200
+  maxValue: 300
+  twoHanded: 0
+  twoHandedAnimation: 0
+  requiresBattery: 0
+  isConductiveMetal: 0
+  weight: 2
+  prefab: {fileID: 100000, guid: a9d79a06de34d5648af9a82fb877930d, type: 3}
+  grabSFX: PickUpPlasticBin
+  dropSFX: DropPlastic1
+  verticalOffset: 0.1065
+  restingRotation: {x: 0, y: 0, z: 322.0025}
+  positionOffset: {x: -0.0139, y: 0.0179, z: -0.06}
+  rotationOffset: {x: 0, y: 0, z: 270}
+  meshVariants: []
+  materialVariants: []
+  useGlobalSpawnWeight: 1
+  globalSpawnWeight: 10
+  _perPlanetSpawnWeight:
+  - SceneName: 41 Experimentation
+    SpawnWeight: 10
+  - SceneName: 220 Assurance
+    SpawnWeight: 10
+  - SceneName: 56 Vow
+    SpawnWeight: 10
+  - SceneName: 21 Offense
+    SpawnWeight: 10
+  - SceneName: 61 March
+    SpawnWeight: 10
+  - SceneName: 85 Rend
+    SpawnWeight: 10
+  - SceneName: 7 Dine
+    SpawnWeight: 10
+  - SceneName: 8 Titan
+    SpawnWeight: 10
+  serializedData: 41 Experimentation,10;220 Assurance,10;56 Vow,10;21 Offense,10;61
+    March,10;85 Rend,10;7 Dine,10;8 Titan,10

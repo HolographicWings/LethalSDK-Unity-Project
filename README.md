@@ -203,6 +203,21 @@ How to use :
 </details>
 
 ## Changes :
+- 1.3.0 :
+	- Fixed Item Drop Ship networking.
+	- Added Christmas Village Moon.
+	- Added a plenty of anomalies checkup.
+	- Added DamagePlayer trigger.
+	- Added Interract Trigger.
+	- Added experimental Ladder support.
+	- Added Added SoundYDistance component.
+	- Added network prefabs to AssetBanks.
+	- Fixed clock doesn't showing when leaving dungeon.
+	- Fixed water sound don't stopping when entering dungeon.
+	- Fixed terrain holes support.
+	- Fixed sun replacement support.
+	- Improved water surface support.
+	- Fixed material issue with Eclipsed weather.
 - 1.2.11 :
 	- Fixed monster names parsing issue that made inside monsters spawn outside.
 	- Ajusted default scrap spawn weights.
@@ -253,6 +268,25 @@ How to use :
 - Custom Weathers (will take a long time).
 - Custom Monsters? (will take a long time).
 - Recursive Scrap spawn per level patch.
+
+## Credits :
+- Few vanilla assets present in this SDK are owner by Zeekerss.
+- Code is made by HolographicWings, this SDK do not include any code from Zeekerss.
+- Other assets are from Pixabay, Free Copyright or Unity Asset Packages listed in each modmanifest descriptions.
+	- Template Scraps :
+		- https://assetstore.unity.com/packages/3d/props/tools/survival-game-tools-139872
+	- Wateridge Moon :
+		- https://assetstore.unity.com/packages/3d/environments/old-sea-port-environment-36897
+	- Christmas Village Moon :
+		- Pixabay
+		- https://youtu.be/n8xGzkizA34
+		- https://assetstore.unity.com/packages/3d/environments/landscapes/flatpoly-winter-village-51544
+		- https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-style-free-rocks-and-plants-145133
+		- https://assetstore.unity.com/packages/3d/environments/low-poly-woods-lifestyle-65306
+		- https://assetstore.unity.com/packages/3d/props/pbr-christmas-gifts-237877
+		- https://assetstore.unity.com/packages/3d/props/free-christmas-assets-low-poly-13102
+		- https://assetstore.unity.com/packages/3d/props/food/christmas-cookies-breakable-105913
+		- https://assetstore.unity.com/packages/3d/props/free-christmas-presents-low-poly-24356
 
 ## Screenshots :
 ![Scrap1](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/Scrap1.png "Scrap1")

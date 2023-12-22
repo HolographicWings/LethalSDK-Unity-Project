@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
-  m_Name: Pills
+  m_Name: pills
   m_EditorClassIdentifier: 
+  RequiredBundles: []
+  IncompatibleBundles: []
   itemName: Pills
   minValue: 100
   maxValue: 200
+  twoHanded: 0
+  twoHandedAnimation: 0
   requiresBattery: 0
+  isConductiveMetal: 0
   weight: 0
   prefab: {fileID: 1985338178271116, guid: d7a071993994de240837dde6563cb6e5, type: 3}
   grabSFX: 
@@ -26,7 +31,7 @@ MonoBehaviour:
   rotationOffset: {x: 18.62, y: 8.1, z: 270}
   meshVariants: []
   materialVariants: []
-  useGlobalSpawnRate: 0
+  useGlobalSpawnWeight: 0
   globalSpawnWeight: 2
   _perPlanetSpawnWeight:
   - SceneName: 41 Experimentation

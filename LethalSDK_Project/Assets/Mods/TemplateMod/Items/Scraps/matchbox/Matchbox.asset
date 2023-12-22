@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
-  m_Name: Matchbox
+  m_Name: matchbox
   m_EditorClassIdentifier: 
+  RequiredBundles: []
+  IncompatibleBundles: []
   itemName: Matchbox
   minValue: 75
   maxValue: 150
+  twoHanded: 0
+  twoHandedAnimation: 0
   requiresBattery: 0
+  isConductiveMetal: 0
   weight: 0
   prefab: {fileID: 1124578452033744, guid: 868b4ce3bcf491e40b08a455731e24b3, type: 3}
   grabSFX: 
@@ -26,7 +31,7 @@ MonoBehaviour:
   rotationOffset: {x: 314.69998, y: 178.64, z: 185.3}
   meshVariants: []
   materialVariants: []
-  useGlobalSpawnRate: 0
+  useGlobalSpawnWeight: 0
   globalSpawnWeight: 5
   _perPlanetSpawnWeight:
   - SceneName: 41 Experimentation
