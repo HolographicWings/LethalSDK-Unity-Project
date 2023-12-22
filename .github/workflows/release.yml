@@ -65,6 +65,7 @@ jobs:
         name: LethalSDK
         version: ${{ env.VERSION }}
         community: lethal-company
+        repo: thunderstore.io
         categories: |
           bepinex
           items
