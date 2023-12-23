@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 27a6729591b249040a6aa1b9eb8202cb
+guid: 68b5d55ae831e0d43bdf560633c4ac4c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -7,7 +7,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -21,21 +21,21 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
   ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
-  generateCubemap: 6
+  generateCubemap: 5
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -5
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
-    aniso: 16
+    filterMode: 1
+    aniso: 1
     mipBias: 0
     wrapU: 0
     wrapV: 0
@@ -55,7 +55,7 @@ TextureImporter:
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
-  textureShape: 1
+  textureShape: 2
   singleChannelComponent: 0
   flipbookRows: 1
   flipbookColumns: 1
@@ -63,9 +63,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -73,7 +73,7 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 100
+    compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -87,7 +87,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -100,7 +100,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0

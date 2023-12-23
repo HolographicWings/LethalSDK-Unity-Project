@@ -144,40 +144,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Indirect
-  m_PositionCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 19.504728, y: -16.635046, z: -194.89542}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 2.2833333
-        value: {x: 13.5, y: -20.6, z: -194.9}
-        inSlope: {x: 0.0000008353352, y: 0.0000008353352, z: 4.078785e-10}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: EclipseObject
+    path: IndirectLight
+  m_PositionCurves: []
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 2.1316516, y: 2.1316516, z: 2.1316516}
+        value: {x: 2.1317, y: 2.1317, z: 2.1317}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -186,7 +161,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 18.033333
-        value: {x: 2.1316516, y: 2.1316516, z: 2.1316516}
+        value: {x: 2.1317, y: 2.1317, z: 2.1317}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -196,7 +171,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: SunTexture
+    path: EclipseSunTexture
   m_FloatCurves:
   - serializedVersion: 2
     curve:
@@ -260,7 +235,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_ColorTemperature
-    path: Indirect
+    path: IndirectLight
     classID: 108
     script: {fileID: 0}
     flags: 0
@@ -317,9 +292,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Intensity
-    path: Indirect
+    path: IndirectLight
     classID: 114
-    script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+    script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -374,9 +349,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: weight
-    path: Sky and Fog Global Volume (1)
+    path: Night Sky and Fog Global Volume
     classID: 114
-    script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+    script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -440,7 +415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_ColorTemperature
-    path: SunWithShadows
+    path: DirectLight
     classID: 108
     script: {fileID: 0}
     flags: 0
@@ -515,9 +490,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Intensity
-    path: SunWithShadows
+    path: DirectLight
     classID: 114
-    script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+    script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -584,9 +559,39 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: weight
-    path: Sky and Fog Global Volume
+    path: StormVolume
     classID: 114
-    script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+    script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 18.033333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: SunTexture
+    classID: 23
+    script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -595,29 +600,30 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
         time: 18.033333
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: weight
-    path: StormVolume
-    classID: 114
-    script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+    attribute: m_Enabled
+    path: EclipseSunTexture
+    classID: 23
+    script: {fileID: 0}
     flags: 0
+  m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -625,15 +631,6 @@ AnimationClip:
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
     genericBindings:
-    - serializedVersion: 2
-      path: 2451032090
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 2
@@ -644,7 +641,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 430736890
+      path: 968519706
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -653,7 +650,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 430736890
+      path: 968519706
       attribute: 4200716687
       script: {fileID: 0}
       typeID: 108
@@ -662,25 +659,25 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 430736890
+      path: 968519706
       attribute: 898800009
-      script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+      script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
       typeID: 114
       customType: 0
       isPPtrCurve: 0
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3329245973
+      path: 1256673129
       attribute: 130897217
-      script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+      script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
       typeID: 114
       customType: 0
       isPPtrCurve: 0
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 841624276
+      path: 548285686
       attribute: 4200716687
       script: {fileID: 0}
       typeID: 108
@@ -689,9 +686,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 841624276
+      path: 548285686
       attribute: 898800009
-      script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+      script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
       typeID: 114
       customType: 0
       isPPtrCurve: 0
@@ -708,15 +705,24 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 508267198
-      attribute: 0
+      attribute: 3305885265
       script: {fileID: 0}
       typeID: 23
-      customType: 21
-      isPPtrCurve: 1
+      customType: 0
+      isPPtrCurve: 0
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 508267198
+      path: 1621895916
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 23
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1621895916
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -725,25 +731,15 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3282778249
-      attribute: 130897217
-      script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
       path: 4249072605
       attribute: 130897217
-      script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+      script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
       typeID: 114
       customType: 0
       isPPtrCurve: 0
       isIntCurve: 0
       isSerializeReferenceCurve: 0
-    pptrCurveMapping:
-    - {fileID: 2100000, guid: ae47b2fc2be29854889ca48bf5c7d7f0, type: 2}
+    pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -827,7 +823,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_ColorTemperature
-    path: Indirect
+    path: IndirectLight
     classID: 108
     script: {fileID: 0}
     flags: 0
@@ -884,9 +880,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Intensity
-    path: Indirect
+    path: IndirectLight
     classID: 114
-    script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+    script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -941,9 +937,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: weight
-    path: Sky and Fog Global Volume (1)
+    path: Night Sky and Fog Global Volume
     classID: 114
-    script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+    script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -1007,7 +1003,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_ColorTemperature
-    path: SunWithShadows
+    path: DirectLight
     classID: 108
     script: {fileID: 0}
     flags: 0
@@ -1082,9 +1078,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Intensity
-    path: SunWithShadows
+    path: DirectLight
     classID: 114
-    script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+    script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -1151,39 +1147,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: weight
-    path: Sky and Fog Global Volume
-    classID: 114
-    script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 18.033333
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: weight
     path: StormVolume
     classID: 114
-    script: {fileID: 1520420858, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+    script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -1520,7 +1486,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Indirect
+    path: IndirectLight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1595,7 +1561,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Indirect
+    path: IndirectLight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1670,7 +1636,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Indirect
+    path: IndirectLight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1680,28 +1646,28 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 19.504728
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
-        time: 2.2833333
-        value: 13.5
-        inSlope: 0.0000008353352
-        outSlope: 0
-        tangentMode: 0
+        time: 18.033333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: EclipseObject
-    classID: 4
+    attribute: m_Enabled
+    path: SunTexture
+    classID: 23
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -1710,28 +1676,28 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -16.635046
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
-        time: 2.2833333
-        value: -20.6
-        inSlope: 0.0000008353352
-        outSlope: 0
-        tangentMode: 0
+        time: 18.033333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: EclipseObject
-    classID: 4
+    attribute: m_Enabled
+    path: EclipseSunTexture
+    classID: 23
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -1740,49 +1706,19 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -194.89542
+        value: 2.1317
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 2.2833333
-        value: -194.9
-        inSlope: 4.078785e-10
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: EclipseObject
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 2.1316516
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 18.033333
-        value: 2.1316516
+        value: 2.1317
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -1790,7 +1726,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: SunTexture
+    path: EclipseSunTexture
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1800,19 +1736,19 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 2.1316516
+        value: 2.1317
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 18.033333
-        value: 2.1316516
+        value: 2.1317
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -1820,7 +1756,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: SunTexture
+    path: EclipseSunTexture
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1830,19 +1766,19 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 2.1316516
+        value: 2.1317
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 18.033333
-        value: 2.1316516
+        value: 2.1317
         inSlope: 0
         outSlope: 0
-        tangentMode: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -1850,7 +1786,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: SunTexture
+    path: EclipseSunTexture
     classID: 4
     script: {fileID: 0}
     flags: 0

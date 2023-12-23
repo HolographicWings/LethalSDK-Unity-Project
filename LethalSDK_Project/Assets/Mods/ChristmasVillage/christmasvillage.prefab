@@ -39591,11 +39591,22 @@ PrefabInstance:
       propertyPath: parameters.m_EditorPositiveFade.z
       value: 0.000019999998
       objectReference: {fileID: 0}
+    - target: {fileID: 1514237883181827167, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: m_Name
+      value: MoonTexture
+      objectReference: {fileID: 0}
     - target: {fileID: 2596648890182144516, guid: c026e01a824d79c458f0bf3a79f4baa4,
         type: 3}
       propertyPath: m_Intensity
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 2935416828853229238, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ec1ff6c7c9df18e48805a1a6981adb80,
+        type: 2}
     - target: {fileID: 3800254783912372791, guid: c026e01a824d79c458f0bf3a79f4baa4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -39616,6 +39627,17 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3943876020438642373, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: weight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943876020438642373, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: a071d16f33bb63a4498fae91b8a1c124,
+        type: 2}
     - target: {fileID: 4709535313961769078, guid: c026e01a824d79c458f0bf3a79f4baa4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39639,8 +39661,18 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 5566281603153630679, guid: c026e01a824d79c458f0bf3a79f4baa4,
         type: 3}
+      propertyPath: m_Name
+      value: Moon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5566281603153630679, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114850420739486574, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: m_Name
+      value: MoonAnimContainer
       objectReference: {fileID: 0}
     - target: {fileID: 7739117199847935255, guid: c026e01a824d79c458f0bf3a79f4baa4,
         type: 3}
@@ -39651,6 +39683,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ColorTemperature
       value: 13198
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910532400203044982, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1317
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910532400203044982, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1317
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910532400203044982, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.1317
       objectReference: {fileID: 0}
     - target: {fileID: 8013400101945219130, guid: c026e01a824d79c458f0bf3a79f4baa4,
         type: 3}
@@ -39723,7 +39770,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 253a9ba3ecd27e14eb600d0bf6562a7c, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1808489972888627872, guid: c026e01a824d79c458f0bf3a79f4baa4,
+        type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8323469299444038648, guid: c026e01a824d79c458f0bf3a79f4baa4,
         type: 3}

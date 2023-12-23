@@ -270,7 +270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EntranceID: 0
   EntrancePoint: {fileID: 692603146173765513}
-  AudioReverbPreset: 0
+  AudioReverbPreset: 2
 --- !u!65 &7456276191121974041
 BoxCollider:
   m_ObjectHideFlags: 0
