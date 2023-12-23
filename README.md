@@ -270,9 +270,9 @@ How to use :
 - Recursive Scrap spawn per level patch.
 
 ## Credits :
-- Few vanilla assets present in this SDK are owner by Zeekerss.
-- Code is made by HolographicWings, this SDK do not include any code from Zeekerss.
-- Other assets are from Pixabay, Free Copyright or Unity Asset Packages listed in each modmanifest descriptions.
+- Few vanilla assets present in this SDK are owned by Zeekerss.
+- Scripts are made by me, this SDK do not include any code from the game.
+- Other assets are Asset Flipping from Pixabay, Free Copyright or Unity Asset Packages.
 	- Template Scraps :
 		- https://assetstore.unity.com/packages/3d/props/tools/survival-game-tools-139872
 	- Wateridge Moon :
