@@ -6176,7 +6176,7 @@ AnimationClip:
     attribute: m_Intensity
     path: ThrusterContainer/ThrusterLight
     classID: 114
-    script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+    script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
     flags: 0
   - serializedVersion: 2
     curve:
@@ -6427,7 +6427,7 @@ AnimationClip:
     - serializedVersion: 2
       path: 3203060803
       attribute: 898800009
-      script: {fileID: -791748507, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+      script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
       typeID: 114
       customType: 0
       isPPtrCurve: 0
