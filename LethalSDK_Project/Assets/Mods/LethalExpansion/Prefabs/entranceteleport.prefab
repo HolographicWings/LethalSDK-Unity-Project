@@ -33,6 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3669396437646290809}
+  - {fileID: 2798660468473690684}
   m_Father: {fileID: 1228407473847564020}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1250797235785205638
@@ -139,6 +140,93 @@ Transform:
   - {fileID: 692603146173765513}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4415973929969518141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2798660468473690684}
+  - component: {fileID: 3193236012552998148}
+  - component: {fileID: 8050910682594648013}
+  m_Layer: 13
+  m_Name: OutsideAudioReverbTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2798660468473690684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415973929969518141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27, y: 0.5, z: 0}
+  m_LocalScale: {x: 54, y: 2, z: 3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8215988670770098704}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3193236012552998148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415973929969518141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 85075132, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangeDryLevel: 1
+  DryLevel: 0
+  ChangeHighFreq: 1
+  HighFreq: -3088
+  ChangeLowFreq: 1
+  LowFreq: -2894
+  ChangeDecayTime: 1
+  DecayTime: 1
+  ChangeRoom: 1
+  Room: -3474
+  ElevatorTriggerForProps: 0
+  SetInElevatorTrigger: 0
+  IsShipRoom: 0
+  ToggleLocalFog: 0
+  FogEnabledAmount: 10
+  SetInsideAtmosphere: 0
+  InsideLighting: 0
+  WeatherEffect: -1
+  EffectEnabled: 1
+  DisableAllWeather: 0
+  EnableCurrentLevelWeather: 1
+--- !u!65 &8050910682594648013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415973929969518141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5467421425451277831
 GameObject:
   m_ObjectHideFlags: 0
