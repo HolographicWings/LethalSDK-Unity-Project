@@ -57,7 +57,7 @@ jobs:
         echo "LAST_EXPANSION_VERSION=$LAST_EXPANSION_VERSION" >> $GITHUB_ENV
         
     - name: Upload Release Asset Zip
-      uses: GreenTF/upload-thunderstore-package@v4.1
+      uses: GreenTF/upload-thunderstore-package@v4.2
       with:
         namespace: HolographicWings
         description: Lethal Company Development Kit to easily add new Scraps, Moons and more in future.
@@ -75,7 +75,7 @@ jobs:
           misc
           tools
         deps: |
-          BepInEx-BepInExPack-5.4.2100
-          HolographicWings-LethalExpansion-${{ env.LAST_EXPANSION_VERSION }}
+          BepInEx-BepInExPack@5.4.2100
+          HolographicWings-LethalExpansion@${{ env.VERSION }}
         website: https://github.com/HolographicWings/LethalSDK-Unity-Project
         file: ./Releases/LethalSDK_v${{ env.VERSION }}.zip
