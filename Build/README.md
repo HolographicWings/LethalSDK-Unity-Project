@@ -251,6 +251,8 @@ How to use :
 </details>
 
 ## Changes :
+- 1.3.16
+	- Reversed networking change with Entrances that causing issues.
 - 1.3.15 :
 	- Small networking fix with Entrances.
 	- Removed Christmas Village (Project files are still available at this [Thunderstore Page](https://thunderstore.io/c/lethal-company/p/HolographicWings/ChristmasVillage_Legacy).
