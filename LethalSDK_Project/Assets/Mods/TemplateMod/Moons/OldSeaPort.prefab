@@ -8448,7 +8448,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.11666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 2b1d543ddcf39464dada1461954358dc, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 26bc3c52a604d3b459f55402eaa635df, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &8388611541194108819
 GameObject:
@@ -19190,10 +19190,30 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 951099334
       objectReference: {fileID: 0}
+    - target: {fileID: 3252923886529753564, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: serializedData
+      value: EntranceID,1;AudioReverbPreset,2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252923886529753564, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: data.Array.data[0]._string2
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3991429596390935838, guid: 8ad6a50fde02a054dad235ac58079f5a,
         type: 3}
       propertyPath: m_Name
       value: EntranceTeleportB
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185793734419895583, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: EntranceID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183523630474294090, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: EntranceID
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20635,10 +20655,30 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 951099334
       objectReference: {fileID: 0}
+    - target: {fileID: 3252923886529753564, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: serializedData
+      value: EntranceID,2;AudioReverbPreset,2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3252923886529753564, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: data.Array.data[0]._string2
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3991429596390935838, guid: 8ad6a50fde02a054dad235ac58079f5a,
         type: 3}
       propertyPath: m_Name
       value: EntranceTeleportC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185793734419895583, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: EntranceID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183523630474294090, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: EntranceID
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

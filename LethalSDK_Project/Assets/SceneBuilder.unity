@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.15096954, g: 0.094366424, b: 0.05913356, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -191,21 +191,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1858289568623118126, guid: 5fff06d78c7b6254da586ea672d29773,
+    - target: {fileID: 2603724186460320284, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 384387489
-      objectReference: {fileID: 0}
-    - target: {fileID: 1896457610277145519, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 1725397585
-      objectReference: {fileID: 0}
-    - target: {fileID: 2102470384050978693, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 205823402
-      objectReference: {fileID: 0}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: 26bc3c52a604d3b459f55402eaa635df,
+        type: 2}
     - target: {fileID: 3075121074509954486, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -256,20 +247,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3477447007483979368, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_BounceIntensity
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7893818475220501376, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: m_Name
       value: oldseaport
-      objectReference: {fileID: 0}
-    - target: {fileID: 7893818475220501376, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -332,6 +313,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1071602522982882797, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3848244355
+      objectReference: {fileID: 0}
     - target: {fileID: 2016254630306542993, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: m_Name
@@ -341,6 +327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210649424028461149, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1798795419
       objectReference: {fileID: 0}
     - target: {fileID: 2372802831884519972, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
@@ -392,15 +383,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7136622617006320790, guid: 718fcf9bfba85b64bb28a71f9355886e,
+    - target: {fileID: 2906674303442311798, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 2791040087
+      value: 3927808105
       objectReference: {fileID: 0}
-    - target: {fileID: 8320599684188199206, guid: 718fcf9bfba85b64bb28a71f9355886e,
+    - target: {fileID: 4045430664995188678, guid: 718fcf9bfba85b64bb28a71f9355886e,
         type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 1993034659
+      value: 1738713990
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002312996762989616, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3588559428
+      objectReference: {fileID: 0}
+    - target: {fileID: 6131963204090020224, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2656665853
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277914715795427444, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: serializedData
+      value: EntranceID,1;AudioReverbPreset,2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277914715795427444, guid: 718fcf9bfba85b64bb28a71f9355886e,
+        type: 3}
+      propertyPath: data.Array.data[0]._string2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
