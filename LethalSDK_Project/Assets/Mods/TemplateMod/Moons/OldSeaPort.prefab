@@ -18145,6 +18145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2064075496274438675, guid: 3228a22491941734bb83ad691d17fcb9,
         type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064075496274438675, guid: 3228a22491941734bb83ad691d17fcb9,
+        type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 0
       objectReference: {fileID: 0}

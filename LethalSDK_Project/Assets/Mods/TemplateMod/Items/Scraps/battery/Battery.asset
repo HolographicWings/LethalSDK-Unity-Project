@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RequiredBundles: []
   IncompatibleBundles: []
+  scrapType: 0
   itemName: Battery
   minValue: 50
   maxValue: 100
@@ -50,5 +51,46 @@ MonoBehaviour:
     SpawnWeight: 18
   - SceneName: 8 Titan
     SpawnWeight: 15
+  - SceneName: Others
+    SpawnWeight: 10
+  shovelHitForce: 1
+  isHoldingButton: 0
+  reelUp: ShovelReelUp
+  swing: ShovelSwing
+  hitSFX:
+  - ShovelHitDefault
+  - ShovelHitDefault2
+  usingPlayerHelmetLight: 0
+  flashlightInterferenceLevel: 0
+  flashlightBulb: {fileID: 0}
+  flashlightBulbGlow: {fileID: 0}
+  flashlightAudio: {fileID: 0}
+  flashlightClips:
+  - FlashlightClick
+  outOfBatteriesClip: FlashlightOutOfBatteries
+  flashlightFlicker: FlashlightFlicker
+  bulbLight: {fileID: 0}
+  bulbDark: {fileID: 0}
+  flashlightMesh: {fileID: 0}
+  flashlightTypeID: 0
+  changeMaterial: 1
+  noiseAudio: {fileID: 0}
+  noiseAudioFar: {fileID: 0}
+  noiseSFX:
+  - ClownHorn1
+  noiseSFXFar:
+  - ClownHornFar
+  noiseRange: 60
+  maxLoudness: 1
+  minLoudness: 0.6
+  minPitch: 0.93
+  maxPitch: 1
+  triggerAnimator: {fileID: 0}
+  whoopieCushionAudio: {fileID: 0}
+  fartAudios:
+  - Fart1
+  - Fart2
+  - Fart3
+  - Fart5
   serializedData: 41 Experimentation,6;220 Assurance,7;56 Vow,8;21 Offense,11;61
-    March,12;85 Rend,16;7 Dine,18;8 Titan,15
+    March,12;85 Rend,16;7 Dine,18;8 Titan,15;Others,10

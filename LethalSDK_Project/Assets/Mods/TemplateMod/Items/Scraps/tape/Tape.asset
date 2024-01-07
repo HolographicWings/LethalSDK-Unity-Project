@@ -50,5 +50,7 @@ MonoBehaviour:
     SpawnWeight: 21
   - SceneName: 8 Titan
     SpawnWeight: 17
+  - SceneName: Others
+    SpawnWeight: 20
   serializedData: 41 Experimentation,21;220 Assurance,23;56 Vow,21;21 Offense,17;61
-    March,18;85 Rend,19;7 Dine,21;8 Titan,17
+    March,18;85 Rend,19;7 Dine,21;8 Titan,17;Others,20

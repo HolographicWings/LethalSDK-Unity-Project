@@ -46,42 +46,93 @@ How to use :
     <li>DropFlashlight</li>
     <li>PocketFlashlight</li>
     <li>DropHeavyBox1</li>
+    <li>FlashlightClickMini</li>
+    <li>FlashlightClickMini2</li>
+    <li>FlashlightMiniOutOfBatteries</li>
     <li>GrabKey</li>
     <li>DropKey</li>
     <li>PocketKey</li>
     <li>DropMetalObject1</li>
+    <li>LockPickerPicking</li>
     <li>DropMetalObject2</li>
+    <li>LungMachine</li>
+    <li>FlashlightClick</li>
+    <li>FlashlightOutOfBatteries</li>
+    <li>FlashlightFlicker</li>
     <li>GrabShovel</li>
     <li>DropShovel</li>
     <li>PocketShovel</li>
+    <li>ShovelReelUp</li>
+    <li>ShovelSwing</li>
+    <li>ShovelHitDefault</li>
+    <li>ShovelHitDefault2</li>
     <li>DropMetalBox</li>
+    <li>ExtensionLadderHitWall</li>
+    <li>ExtensionLadderHitWall2</li>
+    <li>ExtensionLadderExtend</li>
+    <li>FallingAir</li>
+    <li>ExtensionLadderShrink</li>
+    <li>ExtensionLadderAlarm</li>
+    <li>ExtensionLadderLidOpen</li>
     <li>HoldTZP</li>
     <li>DropCan</li>
     <li>PocketWalkieTalkie</li>
+    <li>WalkieTalkieTransmissionOff3</li>
+    <li>WalkieTalkieTransmissionOff4</li>
+    <li>WalkieTalkieTransmissionOff5</li>
+    <li>WalkieTalkieTransmissionOff</li>
+    <li>WalkieTalkieTransmissionOff2</li>
+    <li>WalkieTalkieOff</li>
+    <li>WalkieTalkieOn</li>
+    <li>WalkieTalkieTalkingNotHeld</li>
+    <li>WalkieTalkieCutOut</li>
+    <li>BeginShock1</li>
+    <li>GunOverheat</li>
+    <li>BreakerLever1</li>
+    <li>PatcherDetectAnomaly</li>
+    <li>GunScan</li>
     <li>ShovelPickUp</li>
     <li>DropPlastic1</li>
+    <li>AirHorn1</li>
+    <li>AirHornFar</li>
     <li>DropBell</li>
     <li>PickUpPlasticBin</li>
     <li>DropBottles</li>
     <li>DropPlastic2</li>
     <li>DropMetalObject3</li>
+    <li>CashRegisterDing</li>
     <li>DropJug</li>
+    <li>ClownHorn1</li>
+    <li>ClownHornFar</li>
     <li>DropPlasticLarge</li>
+    <li>Hairdryer1</li>
+    <li>HairdryerFar</li>
     <li>DropGlass1</li>
     <li>DropThinMetal</li>
+    <li>RemoteClick</li>
     <li>DuckQuack</li>
     <li>DropRubberDuck</li>
     <li>BeeHiveGrab</li>
     <li>BeeHiveDrop</li>
     <li>GhostDeviceHitGround</li>
-    <li>GrabShotgun (Update 45)</li>
-    <li>DropGun (Update 45)</li>
-    <li>GrabShotgunShell (Update 45)</li>
-    <li>DropShotgunShell (Update 45)</li>
-    <li>GrabBottle (Update 45)</li>
-    <li>DropBottleSingle (Update 45)</li>
-    <li>GrabCardboardBox (Update 45)</li>
-    <li>DropCardboardBox (Update 45)</li>
+    <li>GrabShotgun</li>
+    <li>DropGun</li>
+    <li>ShotgunBlast2</li>
+    <li>ShotgunBlast</li>
+    <li>ShotgunReload</li>
+    <li>ShotgunBlastFail</li>
+    <li>ShotgunSafetyOn</li>
+    <li>ShotgunSafetyOff</li>
+    <li>GrabShotgunShell</li>
+    <li>DropShotgunShell</li>
+    <li>GrabBottle</li>
+    <li>DropBottleSingle</li>
+    <li>GrabCardboardBox</li>
+    <li>DropCardboardBox</li>
+    <li>Fart1</li>
+    <li>Fart2</li>
+    <li>Fart3</li>
+    <li>Fart5</li>
   </ul>
   </details>
   <details>
@@ -159,12 +210,12 @@ How to use :
 	  <li>PerfumeBottle</li>
 	  <li>Dentures</li>
 	  <li>7Ball</li>
-	  <li>DiyFlashbang (Update 45)</li>
-	  <li>GiftBox (Update 45)</li>
-	  <li>Flask (Update 45)</li>
-	  <li>WhoopieCushion (Update 45)</li>
-	  <li>ComedyMask (Update 45)</li>
-	  <li>TragedyMask (Update 45)</li>
+	  <li>DiyFlashbang</li>
+	  <li>GiftBox</li>
+	  <li>Flask</li>
+	  <li>WhoopieCushion</li>
+	  <li>ComedyMask</li>
+	  <li>TragedyMask</li>
   </ul>
   </details>
   <details>
@@ -196,13 +247,22 @@ How to use :
 	  <li>SpringMan</li>
 	  <li>Jester</li>
 	  <li>LassoMan</li>
-	  <li>Nutcracker (Update 45)</li>
-	  <li>MaskedPlayerEnemy (Update 45)</li>
+	  <li>Nutcracker</li>
+	  <li>MaskedPlayerEnemy</li>
   </ul>
   </details>
 </details>
 
 ## Changes :
+- 1.3.15 :
+	- Small networking fix with Entrances.
+	- Removed Christmas Village (Project files are still available at this [Github Repo](https://github.com/HolographicWings/ChristmasVillage_LethalCompany).
+	- Added a Scrap Network Object warnings when not properly configured.
+	- More audio clips available.
+	- Added very experimental Shovel support.
+	- Added very experimental Flashlight support.
+	- Added very experimental Noisemaker support.
+	- Added very experimental WhoopieCushion support.
 - 1.3.0 :
 	- Fixed Item Drop Ship networking.
 	- Added Christmas Village Moon.
@@ -218,46 +278,49 @@ How to use :
 	- Fixed sun replacement support.
 	- Improved water surface support.
 	- Fixed material issue with Eclipsed weather.
-- 1.2.11 :
-	- Fixed monster names parsing issue that made inside monsters spawn outside.
-	- Ajusted default scrap spawn weights.
-	- Ajusted version checker.
-	- Some null exceptions covered.
-- 1.2.7 :
-	- Renamed UseGlobalSpawnRate field into UseGlobalSpawnWeight.
-	- Added some missing options for scraps.
-	- Added a security in name of assets to avoid errors.
-	- Added several editor rules to guide users.
-	- Overall micro optimizations of assets made with SDK.
-	- Wateridge optimization first pass.
-	- Fixed external scan nodes.
-- 1.2.0 :
-	- Added support for more Fire Exits.
-	- Added Item Drop Ship support.
-	- New moons can now be hidden from the Terminal if wished.
-	- Added an Old Asset Remover.
-	- Added a Version Checker.
-- 1.1.7 :
-	- New file extension for Modules.
-- 1.1.6 :
-	- Fixed ShipNavmesh Prefab.
-- 1.1.5 :
-	- Added water support.
-	- Fixed minor issues.
-	- Updated moon support.
-	- Added Old Sea Port map and Assets.
-- 1.1.4 :
-	- Game Version 45 Ready.
-- 1.1.3 :
-	- Fixed possible AssetBundle creation lock.
-- 1.1.2 :
-	- Finally fixed the crash.
-- 1.1.1 :
-	- Attempt to fix a crash when dropping the PlayerShipNavMesh prefab on a scene.
-- 1.1.0 :
-	- Full custom moons support.
-	- Removed useless assets and compressed the main skybox.
-	- Automatic asset bundle addressing.
+<details>
+  <summary>Old updates:</summary>
+	- 1.2.11 :
+		- Fixed monster names parsing issue that made inside monsters spawn outside.
+		- Ajusted default scrap spawn weights.
+		- Ajusted version checker.
+		- Some null exceptions covered.
+	- 1.2.7 :
+		- Renamed UseGlobalSpawnRate field into UseGlobalSpawnWeight.
+		- Added some missing options for scraps.
+		- Added a security in name of assets to avoid errors.
+		- Added several editor rules to guide users.
+		- Overall micro optimizations of assets made with SDK.
+		- Wateridge optimization first pass.
+		- Fixed external scan nodes.
+	- 1.2.0 :
+		- Added support for more Fire Exits.
+		- Added Item Drop Ship support.
+		- New moons can now be hidden from the Terminal if wished.
+		- Added an Old Asset Remover.
+		- Added a Version Checker.
+	- 1.1.7 :
+		- New file extension for Modules.
+	- 1.1.6 :
+		- Fixed ShipNavmesh Prefab.
+	- 1.1.5 :
+		- Added water support.
+		- Fixed minor issues.
+		- Updated moon support.
+		- Added Old Sea Port map and Assets.
+	- 1.1.4 :
+		- Game Version 45 Ready.
+	- 1.1.3 :
+		- Fixed possible AssetBundle creation lock.
+	- 1.1.2 :
+		- Finally fixed the crash.
+	- 1.1.1 :
+		- Attempt to fix a crash when dropping the PlayerShipNavMesh prefab on a scene.
+	- 1.1.0 :
+		- Full custom moons support.
+		- Removed useless assets and compressed the main skybox.
+		- Automatic asset bundle addressing.
+</details>
 
 ## Planned features :
 - Custom Map Objects and Outside Objects.
