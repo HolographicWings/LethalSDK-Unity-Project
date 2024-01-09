@@ -19,7 +19,7 @@ MonoBehaviour:
   minValue: 50
   maxValue: 100
   twoHanded: 0
-  twoHandedAnimation: 0
+  HandedAnimation: 0
   requiresBattery: 0
   isConductiveMetal: 1
   weight: 5
@@ -55,6 +55,7 @@ MonoBehaviour:
     SpawnWeight: 10
   shovelHitForce: 1
   isHoldingButton: 0
+  shovelAudio: {fileID: 0}
   reelUp: ShovelReelUp
   swing: ShovelSwing
   hitSFX:
