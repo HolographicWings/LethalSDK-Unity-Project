@@ -254,6 +254,9 @@ How to use :
 </details>
 
 ## Changes :
+- 1.3.17
+	- Added several experimental animations support for scraps made with SDK (may fix two handed animations).
+	- Fixed some issues with new Scrap types.
 - 1.3.16
 	- Reversed networking change with Entrances that causing issues.
 - 1.3.15 :
