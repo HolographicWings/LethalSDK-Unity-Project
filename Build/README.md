@@ -8,7 +8,7 @@ Features :
 - New scraps.
 - New moons.
 
-# ! Looking for a successor !
+# Looking for a successor !
 
 ### Looking for a successor to keep LethalExpansion and LethalSDK alife.
 
