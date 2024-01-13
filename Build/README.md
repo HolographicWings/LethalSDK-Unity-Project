@@ -8,6 +8,17 @@ Features :
 - New scraps.
 - New moons.
 
+# ! Looking for a successor !
+
+### Looking for a successor to keep LethalExpansion and LethalSDK alife.
+
+Hello, making this mod was an awesome adventure, but today i want to work on other projects and explore some game concept ideas to see if i can make my own game.
+But i want deprecating this mod to be the last resort.
+It's why i'm looking for someone interesting into continuing this mod and make it in his name.
+If you are ever interested, invite me on discord with my username HolographicWings or write an issue either on LE or LSDK repositories.
+
+Thanks you for supporting me during this project, i hope the LC modding will become even greater.
+
 ## Usage :
 Requirement :
 - [The SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
