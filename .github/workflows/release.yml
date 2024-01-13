@@ -57,7 +57,7 @@ jobs:
         echo "LAST_EXPANSION_VERSION=$LAST_EXPANSION_VERSION" >> $GITHUB_ENV
         
     - name: Upload Release Asset Zip
-      uses: GreenTF/upload-thunderstore-package@v4.2
+      uses: GreenTF/upload-thunderstore-package@v4.3
       with:
         namespace: HolographicWings
         description: Lethal Company Development Kit to easily add new Scraps, Moons and more in future.
