@@ -53,8 +53,8 @@ MonoBehaviour:
     SpawnWeight: 15
   - SceneName: Others
     SpawnWeight: 10
+  playetSpawnBlacklist: []
   shovelHitForce: 1
-  isHoldingButton: 0
   shovelAudio: {fileID: 0}
   reelUp: ShovelReelUp
   swing: ShovelSwing
