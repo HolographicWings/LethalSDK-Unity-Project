@@ -1,23 +1,25 @@
 # LethalSDK Unity Project
 
- This is a Development Kit for Lethal Company. It allow to easily add new Scraps and Moons to the game.  
+ This is a Development Kit for Lethal Company. It allows you to easily add new Scraps and Moons to the game.
+ 
  [Thunderstore.io link](https://thunderstore.io/c/lethal-company/p/HolographicWings/LethalSDK/)  
+ 
  ![TestMoon](https://raw.githubusercontent.com/HolographicWings/LethalSDK-Unity-Project/main/Screenshots/TestMoon.png "TestMoon")
 
 Features :
 - New scraps.
 - New moons.
 
-# Looking for a successor !
+# Looking for a successor!
 
-### Looking for a successor to keep LethalExpansion and LethalSDK alife.
+### Looking for a successor to keep LethalExpansion and LethalSDK alive.
 
-Hello, making this mod was an awesome adventure, but today i want to work on other projects and explore some game concept ideas to see if i can make my own game.
-But i want deprecating this mod to be the last resort.
-It's why i'm looking for someone interesting into continuing this mod and make it in his name.
+Hello. Making this mod was an awesome adventure, but today I want to work on other projects and explore some game concept ideas to see if I can make my own game.
+But I want deprecating this mod to be the last resort.
+It's why I'm looking for someone interested in continuing this mod and make it in his name.
 If you are ever interested, invite me on discord with my username HolographicWings or write an issue either on LE or LSDK repositories.
 
-Thanks you for supporting me during this project, i hope the LC modding will become even greater.
+Thank you for supporting me during this project, and I hope the LC modding will become even greater.
 
 ## Download :
 
@@ -31,24 +33,24 @@ Requirement :
 - [Unity Hub](https://unity.com/download)
 
 How to install :
-(I'll made a video tutorial)
+(I'll make a video tutorial)
 - [Download the SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases). (LethalSDK.zip)
 - Install both [Unity](https://unity.com/releases/editor/whats-new/2022.3) and [Unity Hub](https://unity.com/download).
 - In Installs tab in Unity Hub, locate the Editor executable in the Unity installation directory.
 - Extract the SDK ("LethalSDK_Project" folder) anywhere.
 
 How to use :
-(I'll made a video tutorial)
+(I'll make a video tutorial)
 - Open the "LethalSDK_Project" as a project though the Unity Hub
-- Go in the Mods folder and duplicate the TemplateMod folder.
-- Raneme it as the name of your new mod.
-- Open this folder and click on the ModManifest file, change informations about your mod.
+- Navigate to the Mods folder (~\LethalSDK_Project\Assets\Mods) and duplicate the TemplateMod folder.
+- Rename it to the name of your new mod.
+- Open the renamed folder and open the ModManifest file. Adjust the information about your mod as you see fit.
   WARNING : the Mod Name and the Mod Folder must be same !
-- You can follow how the TemplateMod is made to make your own stuff.
-  In the root of the project, you can find a scene called SceneBuilder, this scene is usefull to easily make your own moons, just make a prefab from the scene by drag and dropping the parent object to the file explorer.
-- When your mod is finished, click on the LethalSDK tab in the top of Unity, then click on AssetBundle Builder, and finally click on Build AssetBundles. (The first building will be longer)
-- When built, you can find your Asset Bundle in the folder you set, this Asset Bundle must be placed anywhere in the "Plugins" folder of BepInEx and require LethalExpansion installed to be loaded. (Only the file with the name of your mod, the manifest is not required)
-  WARNING : Of course, all players must have the same mods in order to join the same lobby.
+- You can reference the TemplateMod in order to create your own stuff.
+  In the root of the project is a scene called SceneBuilder. This scene is useful to easily make your own moons, just make a prefab from the scene by drag and dropping the parent object to the file explorer.
+- When your mod is finished, click on the LethalSDK tab in the top of Unity, then click on AssetBundle Builder, and finally click on Build AssetBundles. (The first build will be longer than subsequent builds)
+- After it has finished building, you can find your Asset Bundle in the folder you set, this Asset Bundle must be placed anywhere in the "Plugins" folder of BepInEx and require LethalExpansion installed to be loaded. (Only the file with the name of your mod, the manifest is not required)
+  NOTE : Of course, all players must have the same mods in order to join the same lobby.
 
 <details>
   <summary>Available vanilla assets:</summary>
@@ -164,7 +166,7 @@ How to use :
   </ul>
   </details>
   <details>
-  <summary>OutsideObjects:</summary>
+  <summary>Outside Objects:</summary>
   <ul>
 	  <li>LargeRock1</li>
 	  <li>LargeRock2</li>
@@ -288,12 +290,12 @@ How to use :
 	- Added Christmas Village Moon.
 	- Added a plenty of anomalies checkup.
 	- Added DamagePlayer trigger.
-	- Added Interract Trigger.
+	- Added Interact Trigger.
 	- Added experimental Ladder support.
-	- Added Added SoundYDistance component.
+	- Added SoundYDistance component.
 	- Added network prefabs to AssetBanks.
-	- Fixed clock doesn't showing when leaving dungeon.
-	- Fixed water sound don't stopping when entering dungeon.
+	- Fixed clock not showing when leaving dungeon.
+	- Fixed water sound not stopping when entering dungeon.
 	- Fixed terrain holes support.
 	- Fixed sun replacement support.
 	- Improved water surface support.
@@ -304,8 +306,8 @@ How to use :
 		<li>1.2.11 :
 			<ul>
 				<li>Fixed monster names parsing issue that made inside monsters spawn outside.</li>
-				<li>Ajusted default scrap spawn weights.</li>
-				<li>Ajusted version checker.</li>
+				<li>Adjusted default scrap spawn weights.</li>
+				<li>Adjusted version checker.</li>
 				<li>Some null exceptions covered.</li>
 			</ul>
 		</li>
@@ -381,7 +383,7 @@ How to use :
 - Custom Map Objects and Outside Objects.
 - Custom Level Ambiances.
 - Custom Dungeon Flows (will take a long time).
-- Custom Interractable Scraps.
+- Custom Interactable Scraps.
 - Custom Shop Items (Ship Decorations and Suits as well).
 - Custom Weathers (will take a long time).
 - Custom Monsters? (will take a long time).
@@ -389,7 +391,7 @@ How to use :
 
 ## Credits :
 - Few vanilla assets present in this SDK are owned by Zeekerss.
-- Scripts are made by me, this SDK do not include any code from the game.
+- Scripts are made by me, this SDK does not include any code from the game.
 - Other assets are Asset Flipping from Pixabay, Free Copyright or Unity Asset Packages.
 	- Template Scraps :
 		- https://assetstore.unity.com/packages/3d/props/tools/survival-game-tools-139872
