@@ -10,6 +10,8 @@ Features :
 - New scraps.
 - New moons.
 
+For guides on using this project, please go to [this page](https://github.com/BuffMage/LethalExpansionGuides/blob/main/README.md) (Note: Still currently being developed, but Normal Scrap Type is completely documented)
+
 # Looking for a successor!
 
 ### Looking for a successor to keep LethalExpansion and LethalSDK alive.
