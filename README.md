@@ -271,6 +271,8 @@ How to use :
 </details>
 
 ## Changes :
+- 1.3.28
+	- Made the entrance instanced though network (Look at the entrances of template), it should fix the coil head with the 1.3.28 version of LE.
 - 1.3.19
 	- Added a blacklist field for custom scraps and moons. (Need testing)
 - 1.3.17
