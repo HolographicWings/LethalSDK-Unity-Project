@@ -263,7 +263,7 @@ How to use :
 
 ## Changes :
 - 1.3.30
-	- Added some debug tooltips for terrains. (Thanks to sfDesat and Audio Knight for finding the fix fox Quicksand on terrains)
+	- Added some debug tooltips for terrains. (Thanks to sfDesat and Audio Knight for finding the fix for Quicksand on terrains)
 - 1.3.28
 	- Made the entrance instanced though network (Look at the entrances of template), it should fix the coil head with the 1.3.28 version of LE.
 - 1.3.19
