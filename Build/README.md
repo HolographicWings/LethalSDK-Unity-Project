@@ -262,6 +262,8 @@ How to use :
 </details>
 
 ## Changes :
+- 1.3.30
+	- Added some debug tooltips for terrains.
 - 1.3.28
 	- Made the entrance instanced though network (Look at the entrances of template), it should fix the coil head with the 1.3.28 version of LE.
 - 1.3.19
