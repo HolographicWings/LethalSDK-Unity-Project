@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1228407473847564020}
-  - component: {fileID: 283113474301141741}
-  - component: {fileID: 3252923886529753564}
+  - component: {fileID: 2080990322701911724}
+  - component: {fileID: 6458504379458557578}
   m_Layer: 0
   m_Name: entranceteleportinstancer
   m_TagString: Untagged
@@ -35,7 +35,7 @@ Transform:
   - {fileID: 1615445222377090164}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &283113474301141741
+--- !u!114 &2080990322701911724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,10 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 880151135, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3991429596390935838, guid: c837c3e18d816ff46ac2618f71cac8f8, type: 3}
+  prefab: {fileID: 3991429596390935838, guid: 3b4f8ab8db5248742989556bca3266c6, type: 3}
   instance: {fileID: 0}
   interfaceType: 2
---- !u!114 &3252923886529753564
+--- !u!114 &6458504379458557578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
