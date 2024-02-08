@@ -1,4 +1,6 @@
 ## Changes :
+- 1.3.36
+	- Added moon info. (by MegaPiggy)
 - 1.3.34
 	- Added back the normal item dropship.
 	- Updated TextMeshPro from 3.0.6 tp 3.0.7.
