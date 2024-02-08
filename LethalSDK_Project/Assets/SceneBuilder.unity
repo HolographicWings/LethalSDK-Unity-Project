@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15085079, g: 0.09426839, b: 0.05903481, a: 1}
+  m_IndirectSpecularColor: {r: 0.15103258, g: 0.09443641, b: 0.05919829, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -152,7 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 515067592}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries: []
 --- !u!4 &246719832
 Transform:
   m_ObjectHideFlags: 19
@@ -241,35 +240,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7507854494089367937, guid: 5fff06d78c7b6254da586ea672d29773,
+    - target: {fileID: 3339456428744942271, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
-      propertyPath: serializedData
-      value: EntranceID,1;AudioReverbPreset,2
+      propertyPath: LightsModule.maxLights
+      value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 7507854494089367937, guid: 5fff06d78c7b6254da586ea672d29773,
+    - target: {fileID: 3339456429155728157, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
-      propertyPath: data.Array.data[0]._string2
-      value: 1
+      propertyPath: LightsModule.maxLights
+      value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 7507854494089367937, guid: 5fff06d78c7b6254da586ea672d29773,
+    - target: {fileID: 3477447007483979368, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
-      propertyPath: netdata.m_InternalValue.Array.size
-      value: 0
+      propertyPath: m_BoundingSphereOverride.w
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477447007483979368, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477447007483979368, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477447007483979368, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: NaN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836233248032430422, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_Range
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836233248032430422, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -2.0851187e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836233248032430422, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -4.650831e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836233248032430422, guid: 5fff06d78c7b6254da586ea672d29773,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7.36e-43
       objectReference: {fileID: 0}
     - target: {fileID: 7893818475220501376, guid: 5fff06d78c7b6254da586ea672d29773,
         type: 3}
       propertyPath: m_Name
       value: oldseaport
-      objectReference: {fileID: 0}
-    - target: {fileID: 8020253877376951723, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: serializedData
-      value: EntranceID,2;AudioReverbPreset,2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8020253877376951723, guid: 5fff06d78c7b6254da586ea672d29773,
-        type: 3}
-      propertyPath: data.Array.data[0]._string2
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

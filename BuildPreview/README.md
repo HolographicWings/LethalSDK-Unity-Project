@@ -262,8 +262,13 @@ How to use :
 </details>
 
 ## Changes :
+- 1.3.34
+	- Added back the normal item dropship.
+	- Updated TextMeshPro from 3.0.6 tp 3.0.7.
+	- Small light optimizations on Wateridge.
+	- Fixed missing HDRP profile.
 - 1.3.30
-	- Added some debug tooltips for terrains. (Thanks to sfDesat and Audio Knight for finding the fix for Quicksand on terrains)
+	- Added some debug tooltips for terrains. (Thanks to sfDesat and Audio Knight for finding the fix for Quicksand on Terrains)
 - 1.3.28
 	- Made the entrance instanced though network (Look at the entrances of template), it should fix the coil head with the 1.3.28 version of LE.
 - 1.3.19

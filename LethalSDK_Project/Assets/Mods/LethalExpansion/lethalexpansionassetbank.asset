@@ -21,8 +21,12 @@ MonoBehaviour:
       type: 3}
   - PrefabName: 
     PrefabPath: 
+    Prefab: {fileID: 8681541410405412263, guid: d01b8a7f3caced347959b3e72ef8963d,
+      type: 3}
+  - PrefabName: 
+    PrefabPath: 
     Prefab: {fileID: 3991429596390935838, guid: 3b4f8ab8db5248742989556bca3266c6,
       type: 3}
   serializedAudioClips: 
   serializedPlanetPrefabs: 
-  serializedNetworkPrefabs: itemshipanimcontainer,Assets/Mods/LethalExpansion/prefabs/itemshipanimcontainer.prefab;entranceteleport,Assets/Mods/LethalExpansion/prefabs/entranceteleport.prefab
+  serializedNetworkPrefabs: ItemShipAnimContainer,Assets/Mods/LethalExpansion/prefabs/ItemShipAnimContainer.prefab;ItemShipAnimContainerChristmas,Assets/Mods/LethalExpansion/prefabs/ItemShipAnimContainerChristmas.prefab;entranceteleport,Assets/Mods/LethalExpansion/prefabs/entranceteleport.prefab

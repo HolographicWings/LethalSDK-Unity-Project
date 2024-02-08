@@ -7683,7 +7683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3075121074509954486}
   m_Layer: 0
-  m_Name: oldseaport
+  m_Name: OldSeaPort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18128,10 +18128,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 198000013227194214, guid: 3228a22491941734bb83ad691d17fcb9,
+        type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 198000013621194436, guid: 3228a22491941734bb83ad691d17fcb9,
         type: 3}
       propertyPath: CollisionModule.type
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000013621194436, guid: 3228a22491941734bb83ad691d17fcb9,
+        type: 3}
+      propertyPath: LightsModule.maxLights
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 198000013621194436, guid: 3228a22491941734bb83ad691d17fcb9,
         type: 3}
@@ -18151,22 +18161,22 @@ PrefabInstance:
     - target: {fileID: 2064075496274438675, guid: 3228a22491941734bb83ad691d17fcb9,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2064075496274438675, guid: 3228a22491941734bb83ad691d17fcb9,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: -0
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2064075496274438675, guid: 3228a22491941734bb83ad691d17fcb9,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -1
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 2064075496274438675, guid: 3228a22491941734bb83ad691d17fcb9,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 0.00011701508
+      value: NaN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20138,8 +20148,24 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 10800000, guid: 2b120c828398db5439578c6f50bef162, type: 3}
+      propertyPath: m_Range
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2b120c828398db5439578c6f50bef162, type: 3}
       propertyPath: m_ShadowRadius
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2b120c828398db5439578c6f50bef162, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: -2.0851187e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2b120c828398db5439578c6f50bef162, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: -4.650831e-38
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2b120c828398db5439578c6f50bef162, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 7.36e-43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
