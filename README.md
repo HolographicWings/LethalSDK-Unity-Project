@@ -29,7 +29,7 @@ Thank you for supporting me during this project, and I hope the LC modding will 
 <!--[![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/LethalSDK-Unity-Project/total.svg?style=for-the-badge)](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)-->
 
 ## Usage :
-### Requirement :
+### Requirement :  
 - [The SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
 - Unity ([2022.3.9 Recommended](https://unity.com/releases/editor/whats-new/2022.3.9))
 - [Unity Hub](https://unity.com/download)
@@ -42,7 +42,7 @@ Tutorial video :
 - In Installs tab in Unity Hub, locate the Editor executable in the Unity installation directory.
 - Extract the SDK ("LethalSDK_Project" folder) anywhere.
 
-How to use :
+### How to use :  
 (I'll make a video tutorial)
 - Open the "LethalSDK_Project" as a project though the Unity Hub
 - Navigate to the Mods folder (~\LethalSDK_Project\Assets\Mods) and duplicate the TemplateMod folder.

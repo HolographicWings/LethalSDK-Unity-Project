@@ -20,19 +20,20 @@ If you are ever interested, invite me on discord with my username HolographicWin
 Thanks you for supporting me during this project, i hope the LC modding will become even greater.
 
 ## Usage :
-Requirement :
+### Requirement :  
 - [The SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
 - Unity ([2022.3.9 Recommended](https://unity.com/releases/editor/whats-new/2022.3.9))
 - [Unity Hub](https://unity.com/download)
 
-How to install :
-(I'll made a video tutorial)
+### How to install :  
+Tutorial video :  
+[![](http://markdown-videos-api.jorgenkh.no/youtube/Pb2Qy1Z6360)](https://youtu.be/Pb2Qy1Z6360)
 - [Download the SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases). (LethalSDK.zip)
 - Install both [Unity](https://unity.com/releases/editor/whats-new/2022.3) and [Unity Hub](https://unity.com/download).
 - In Installs tab in Unity Hub, locate the Editor executable in the Unity installation directory.
 - Extract the SDK ("LethalSDK_Project" folder) anywhere.
 
-How to use :
+### How to use :  
 (I'll made a video tutorial)
 - Open the "LethalSDK_Project" as a project though the Unity Hub
 - Go in the Mods folder and duplicate the TemplateMod folder.
