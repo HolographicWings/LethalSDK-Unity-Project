@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: old sea port_water
+  m_Name: Old Sea Port_Water
   m_Shader: {fileID: -6465566751694194690, guid: 3fda5e465882bec4d8e64161b681806c,
     type: 3}
   m_Parent: {fileID: 0}

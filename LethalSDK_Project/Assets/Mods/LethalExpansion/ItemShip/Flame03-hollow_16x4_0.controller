@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: flame03-hollow_16x4_0
+  m_Name: Flame03-hollow_16x4_0
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:

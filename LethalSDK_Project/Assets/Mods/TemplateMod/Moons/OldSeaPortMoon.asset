@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1946537778, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
-  m_Name: oldseaportmoon
+  m_Name: OldSeaPortMoon
   m_EditorClassIdentifier: 
   MoonName: Wateridge
   RequiredBundles:
@@ -42,6 +42,7 @@ MonoBehaviour:
     But there are no more plates anymore, the remaining population
     eventually left as a result of the numerous space travels that brought various
     stowaway megafaunas to the remaining floating platforms on the Moon.'
+  PlanetLore: 
   PlanetVideo: {fileID: 32900000, guid: da94c31b219310c499000f821e27da43, type: 3}
   RiskLevel: S
   TimeToArrive: 4
@@ -170,6 +171,7 @@ MonoBehaviour:
     SpawnWeight: 11
   - ObjectName: FancyPainting
     SpawnWeight: 8
+  spawnableScrapBlacklist: []
   MinScrap: 22
   MaxScrap: 32
   LevelAmbienceClips: MansionTypeAmbience

@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
-  m_Name: matchbox
+  m_Name: Matchbox
   m_EditorClassIdentifier: 
   RequiredBundles: []
   IncompatibleBundles: []
+  scrapType: 0
   itemName: Matchbox
   minValue: 75
   maxValue: 150
   twoHanded: 0
-  twoHandedAnimation: 0
+  HandedAnimation: 0
   requiresBattery: 0
   isConductiveMetal: 0
   weight: 0
@@ -52,5 +53,45 @@ MonoBehaviour:
     SpawnWeight: 11
   - SceneName: Others
     SpawnWeight: 5
+  playetSpawnBlacklist: []
+  shovelHitForce: 1
+  shovelAudio: {fileID: 0}
+  reelUp: ShovelReelUp
+  swing: ShovelSwing
+  hitSFX:
+  - ShovelHitDefault
+  - ShovelHitDefault2
+  usingPlayerHelmetLight: 0
+  flashlightInterferenceLevel: 0
+  flashlightBulb: {fileID: 0}
+  flashlightBulbGlow: {fileID: 0}
+  flashlightAudio: {fileID: 0}
+  flashlightClips:
+  - FlashlightClick
+  outOfBatteriesClip: FlashlightOutOfBatteries
+  flashlightFlicker: FlashlightFlicker
+  bulbLight: {fileID: 0}
+  bulbDark: {fileID: 0}
+  flashlightMesh: {fileID: 0}
+  flashlightTypeID: 0
+  changeMaterial: 1
+  noiseAudio: {fileID: 0}
+  noiseAudioFar: {fileID: 0}
+  noiseSFX:
+  - ClownHorn1
+  noiseSFXFar:
+  - ClownHornFar
+  noiseRange: 60
+  maxLoudness: 1
+  minLoudness: 0.6
+  minPitch: 0.93
+  maxPitch: 1
+  triggerAnimator: {fileID: 0}
+  whoopieCushionAudio: {fileID: 0}
+  fartAudios:
+  - Fart1
+  - Fart2
+  - Fart3
+  - Fart5
   serializedData: 41 Experimentation,4;220 Assurance,5;56 Vow,5;21 Offense,6;61 March,7;85
     Rend,9;7 Dine,8;8 Titan,11;Others,5
