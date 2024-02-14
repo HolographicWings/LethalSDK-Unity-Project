@@ -275,6 +275,7 @@ How to use :
 	- Fixed asset names.
 	- Removed OldSeaPort useless assets.
 	- Compressed some uncompressed OldSeaPort textures.
+	- Fixed a typo in Scrap fields.
 - 1.3.36
 	- Added moon info. (by MegaPiggy)
 - 1.3.34
