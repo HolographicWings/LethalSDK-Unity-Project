@@ -1,4 +1,8 @@
 ## Changes :
+- 1.3.38
+	- Fixed asset names.
+	- Removed OldSeaPort useless assets.
+	- Compressed some uncompressed OldSeaPort textures.
 - 1.3.36
 	- Added moon info. (by MegaPiggy)
 - 1.3.34
