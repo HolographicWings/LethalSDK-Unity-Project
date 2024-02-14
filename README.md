@@ -29,13 +29,14 @@ Thank you for supporting me during this project, and I hope the LC modding will 
 <!--[![Downloads badge](https://img.shields.io/github/downloads/HolographicWings/LethalSDK-Unity-Project/total.svg?style=for-the-badge)](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)-->
 
 ## Usage :
-Requirement :
+### Requirement :
 - [The SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases)
 - Unity ([2022.3.9 Recommended](https://unity.com/releases/editor/whats-new/2022.3.9))
 - [Unity Hub](https://unity.com/download)
 
-How to install :
-(I'll make a video tutorial)
+### How to install :  
+Tutorial video :  
+[![](http://markdown-videos-api.jorgenkh.no/youtube/Pb2Qy1Z6360)](https://youtu.be/Pb2Qy1Z6360)
 - [Download the SDK](https://github.com/HolographicWings/LethalSDK-Unity-Project/releases). (LethalSDK.zip)
 - Install both [Unity](https://unity.com/releases/editor/whats-new/2022.3) and [Unity Hub](https://unity.com/download).
 - In Installs tab in Unity Hub, locate the Editor executable in the Unity installation directory.
