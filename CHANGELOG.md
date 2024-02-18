@@ -1,4 +1,6 @@
 ## Changes :
+- 1.3.41
+	- Added UseCooldown field to scraps. (Fix noisemaker spam issue)
 - 1.3.38
 	- Fixed asset names.
 	- Removed OldSeaPort useless assets.
