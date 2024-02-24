@@ -272,6 +272,8 @@ Tutorial video :
 </details>
 
 ## Changes :
+- 1.3.43
+	- Tweaked the previous MeshFilter to only apply when the scrap have MeshVariants.
 - 1.3.42
 	- Added a checkup to fix issues with custom scraps. (Missing MeshFilter)
 - 1.3.41
