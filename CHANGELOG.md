@@ -1,57 +1,98 @@
 ## Changes :
-- 1.3.43
-	- Tweaked the previous MeshFilter checkup to only apply when the scrap have MeshVariants.
-- 1.3.42
-	- Added a checkup to fix issues with custom scraps. (Missing MeshFilter)
-- 1.3.41
-	- Added UseCooldown field to scraps. (Fix noisemaker spam issue)
-- 1.3.38
-	- Fixed asset names.
-	- Removed OldSeaPort useless assets.
-	- Compressed some uncompressed OldSeaPort textures.
-	- Fixed a typo in Scrap fields.
-- 1.3.36
-	- Added moon info. (by MegaPiggy)
-- 1.3.34
-	- Added back the normal item dropship.
-	- Updated TextMeshPro from 3.0.6 tp 3.0.7.
-	- Small light optimizations on Wateridge.
-	- Fixed missing HDRP profile.
-- 1.3.30
-	- Added some debug tooltips for terrains. (Thanks to sfDesat and Audio Knight for finding the fix for Quicksand on Terrains)
-- 1.3.28
-	- Made the entrance instanced though network (Look at the entrances of template), it should fix the coil head with the 1.3.28 version of LE.
-- 1.3.19
-	- Added a blacklist field for custom scraps and moons. (Need testing)
-- 1.3.17
-	- Added several experimental animations support for scraps made with SDK (may fix two handed animations).
-	- Fixed some issues with new Scrap types.
-- 1.3.16
-	- Reversed networking change with Entrances that causing issues.
-- 1.3.15 :
-	- Small networking fix with Entrances.
-	- Removed Christmas Village (Project files are still available at this [Github Repo](https://github.com/HolographicWings/ChristmasVillage_LethalCompany).
-	- Added a Scrap Network Object warnings when not properly configured.
-	- More audio clips available.
-	- Added very experimental Shovel support.
-	- Added very experimental Flashlight support.
-	- Added very experimental Noisemaker support.
-	- Added very experimental WhoopieCushion support.
-- 1.3.0 :
-	- Fixed Item Drop Ship networking.
-	- Added Christmas Village Moon.
-	- Added a plenty of anomalies checkup.
-	- Added DamagePlayer trigger.
-	- Added Interract Trigger.
-	- Added experimental Ladder support.
-	- Added Added SoundYDistance component.
-	- Added network prefabs to AssetBanks.
-	- Fixed clock doesn't showing when leaving dungeon.
-	- Fixed water sound don't stopping when entering dungeon.
-	- Fixed terrain holes support.
-	- Fixed sun replacement support.
-	- Improved water surface support.
-	- Fixed material issue with Eclipsed weather.
+<ul>
+	<li>1.3.43
+		<ul>
+			<li>Tweaked the previous MeshFilter checkup to only apply when the scrap have MeshVariants.
+		</ul>
+	</li>
+	<li>1.3.42
+		<ul>
+			<li>Added a checkup to fix issues with custom scraps. (Missing MeshFilter)
+		</ul>
+	</li>
+	<li>1.3.41
+		<ul>
+			<li>Added UseCooldown field to scraps. (Fix noisemaker spam issue)
+		</ul>
+	</li>
+	<li>1.3.38
+		<ul>
+			<li>Fixed asset names.
+			<li>Removed OldSeaPort useless assets.
+			<li>Compressed some uncompressed OldSeaPort textures.
+			<li>Fixed a typo in Scrap fields.
+		</ul>
+	</li>
+	<li>1.3.36
+		<ul>
+			<li>Added moon info. (by MegaPiggy)
+		</ul>
+	</li>
+	<li>1.3.34
+		<ul>
+			<li>Added back the normal item dropship.
+			<li>Updated TextMeshPro from 3.0.6 tp 3.0.7.
+			<li>Small light optimizations on Wateridge.
+			<li>Fixed missing HDRP profile.
+		</ul>
+	</li>
+	<li>1.3.30
+		<ul>
+			<li>Added some debug tooltips for terrains. (Thanks to sfDesat and Audio Knight for finding the fix for Quicksand on Terrains)
+		</ul>
+	</li>
+	<li>1.3.28
+		<ul>
+			<li>Made the entrance instanced though network (Look at the entrances of template), it should fix the coil head with the 1.3.28 version of LE.
+		</ul>
+	</li>
+	<li>1.3.19
+		<ul>
+			<li>Added a blacklist field for custom scraps and moons. (Need testing)
+		</ul>
+	</li>
+	<li>1.3.17
+		<ul>
+			<li>Added several experimental animations support for scraps made with SDK (may fix two handed animations).
+			<li>Fixed some issues with new Scrap types.
+		</ul>
+	</li>
+	<li>1.3.16
+		<ul>
+			<li>Reversed networking change with Entrances that causing issues.
+		</ul>
+	</li>
+	<li>1.3.15 :
+		<ul>
+			<li>Small networking fix with Entrances.
+			<li>Removed Christmas Village (Project files are still available at this [Github Repo](https://github.com/HolographicWings/ChristmasVillage_LethalCompany).
+			<li>Added a Scrap Network Object warnings when not properly configured.
+			<li>More audio clips available.
+			<li>Added very experimental Shovel support.
+			<li>Added very experimental Flashlight support.
+			<li>Added very experimental Noisemaker support.
+			<li>Added very experimental WhoopieCushion support.
+		</ul>
+	</li>
+	<li>1.3.0 :
+		<ul>
+			<li>Fixed Item Drop Ship networking.
+			<li>Added Christmas Village Moon.
+			<li>Added a plenty of anomalies checkup.
+			<li>Added DamagePlayer trigger.
+			<li>Added Interract Trigger.
+			<li>Added experimental Ladder support.
+			<li>Added Added SoundYDistance component.
+			<li>Added network prefabs to AssetBanks.
+			<li>Fixed clock doesn't showing when leaving dungeon.
+			<li>Fixed water sound don't stopping when entering dungeon.
+			<li>Fixed terrain holes support.
+			<li>Fixed sun replacement support.
+			<li>Improved water surface support.
+			<li>Fixed material issue with Eclipsed weather.
+		</ul>
+	</li>
+</ul>
 <details>
   <summary>Old updates:</summary>
 	<ul>
